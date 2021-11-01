@@ -553,9 +553,22 @@
       },
       "alert": {
         "snackbar": {
+          "soft-background": {
+            "description": "Snackbar background color",
+            "value": "$scale.color.gray.50",
+            "type": "color"
+          },
           "strong-background": {
             "description": "Snackbar background color",
             "value": "$scale.color.gray.800",
+            "type": "color"
+          },
+          "content-light": {
+            "value": "$scale.color.contrast.light",
+            "type": "color"
+          },
+          "content-dark": {
+            "value": "rgba($scale.color.contrast.dark, 0.87)",
             "type": "color"
           }
         },
