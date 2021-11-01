@@ -1,5 +1,5 @@
 {
-  "Color": {
+  "color": {
     "mercer": {
       "blue": {
         "50": {
@@ -419,7 +419,7 @@
       }
     }
   },
-  "Kava": {
+  "kava": {
     "0": {
       "value": "0",
       "type": "borderRadius"
@@ -1875,4 +1875,3 @@
     }
   }
 }
-
