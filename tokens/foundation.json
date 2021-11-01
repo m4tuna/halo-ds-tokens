@@ -1835,7 +1835,7 @@
     },
     "spacing": {
       "base": {
-        "value": "2",
+        "value": "$scale.content.spacing.base",
         "type": "spacing"
       },
       "vertical-2": {
