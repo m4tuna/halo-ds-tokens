@@ -172,7 +172,7 @@
           },
           "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "colors.action.info.main-contained",
+            "value": "$colors.action.info.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -578,7 +578,7 @@
             "type": "color"
           },
           "soft-border": {
-            "value": "$scale.color.gray.800",
+            "value": "$scale.color.gray.900",
             "type": "color"
           },
           "content-light": {
