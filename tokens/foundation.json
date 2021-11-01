@@ -1925,6 +1925,10 @@
       "horizontal-12": {
         "value": "$spacing.base * 12",
         "type": "spacing"
+      },
+      "none": {
+        "value": "0",
+        "type": "spacing"
       }
     },
     "scale": {
