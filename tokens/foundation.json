@@ -8,6 +8,11 @@
             "value": "rgba(11, 65, 173, 1.0)",
             "type": "color"
           },
+          "main-outlined": {
+            "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
+            "value": "rgba(11, 65, 173, 1.0)",
+            "type": "color"
+          },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
             "value": "$scale.color.contrast.light",
@@ -49,11 +54,6 @@
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
-          },
-          "main-outlined": {
-            "value": "{colors.action.primary.main-contained}",
-            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "type": "color"
           }
         },
         "secondary": {
