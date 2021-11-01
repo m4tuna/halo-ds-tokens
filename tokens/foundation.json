@@ -1833,6 +1833,100 @@
         }
       }
     },
+    "spacing": {
+      "base": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "vertical-2": {
+        "value": "$spacing.base * 2",
+        "type": "spacing"
+      },
+      "vertical-3": {
+        "value": "$spacing.base * 3",
+        "type": "spacing"
+      },
+      "vertical-4": {
+        "value": "$spacing.base * 4",
+        "type": "spacing"
+      },
+      "vertical-5": {
+        "value": "$spacing.base * 5",
+        "type": "spacing"
+      },
+      "vertical-6": {
+        "value": "$spacing.base * 6",
+        "type": "spacing"
+      },
+      "vertical-7": {
+        "value": "$spacing.base * 7",
+        "type": "spacing"
+      },
+      "vertical-8": {
+        "value": "$spacing.base * 8",
+        "type": "spacing"
+      },
+      "vertical-9": {
+        "value": "$spacing.base * 9",
+        "type": "spacing"
+      },
+      "vertical-10": {
+        "value": "$spacing.base * 10",
+        "type": "spacing"
+      },
+      "vertical-11": {
+        "value": "$spacing.base * 11",
+        "type": "spacing"
+      },
+      "vertical-12": {
+        "value": "$spacing.base * 12",
+        "type": "spacing"
+      },
+      "horizontal-2": {
+        "value": "$spacing.base * 2",
+        "type": "spacing"
+      },
+      "horizontal-3": {
+        "value": "$spacing.base * 3",
+        "type": "spacing"
+      },
+      "horizontal-4": {
+        "value": "$spacing.base * 4",
+        "type": "spacing"
+      },
+      "horizontal-5": {
+        "value": "$spacing.base * 5",
+        "type": "spacing"
+      },
+      "horizontal-6": {
+        "value": "$spacing.base * 6",
+        "type": "spacing"
+      },
+      "horizontal-7": {
+        "value": "$spacing.base * 7",
+        "type": "spacing"
+      },
+      "horizontal-8": {
+        "value": "$spacing.base * 8",
+        "type": "spacing"
+      },
+      "horizontal-9": {
+        "value": "$spacing.base * 9",
+        "type": "spacing"
+      },
+      "horizontal-10": {
+        "value": "$spacing.base * 10",
+        "type": "spacing"
+      },
+      "horizontal-11": {
+        "value": "$spacing.base * 11",
+        "type": "spacing"
+      },
+      "horizontal-12": {
+        "value": "$spacing.base * 12",
+        "type": "spacing"
+      }
+    },
     "scale": {
       "color": {
         "blue": {
@@ -2486,56 +2580,6 @@
             "type": "other"
           }
         }
-      }
-    },
-    "spacing": {
-      "vertical-base": {
-        "value": "2",
-        "type": "spacing"
-      },
-      "vertical-2": {
-        "value": "$spacing.vertical-base * 2",
-        "type": "spacing"
-      },
-      "vertical-3": {
-        "value": "$spacing.vertical-base * 3",
-        "type": "spacing"
-      },
-      "vertical-4": {
-        "value": "$spacing.vertical-base * 4",
-        "type": "spacing"
-      },
-      "vertical-5": {
-        "value": "$spacing.vertical-base * 5",
-        "type": "spacing"
-      },
-      "vertical-6": {
-        "value": "$spacing.vertical-base * 6",
-        "type": "spacing"
-      },
-      "vertical-7": {
-        "value": "$spacing.vertical-base * 7",
-        "type": "spacing"
-      },
-      "vertical-8": {
-        "value": "$spacing.vertical-base * 8",
-        "type": "spacing"
-      },
-      "vertical-9": {
-        "value": "$spacing.vertical-base * 9",
-        "type": "spacing"
-      },
-      "vertical-10": {
-        "value": "$spacing.vertical-base * 10",
-        "type": "spacing"
-      },
-      "vertical-11": {
-        "value": "$spacing.vertical-base * 11",
-        "type": "spacing"
-      },
-      "vertical-12": {
-        "value": "$spacing.vertical-base * 12",
-        "type": "spacing"
       }
     }
   }
