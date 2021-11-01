@@ -116,6 +116,11 @@
             "value": "rgba($scale.color.contrast.dark, 0.54)",
             "type": "color"
           },
+          "main-outlined": {
+            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
+            "value": "$colors.action.default.main-contained",
+            "type": "color"
+          },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
             "value": "$scale.color.contrast.light",
@@ -157,17 +162,17 @@
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
-          },
-          "main-outlined": {
-            "value": "$colors.action.default.main-contained",
-            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "type": "color"
           }
         },
         "info": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
             "value": "$scale.color.alert.info.400",
+            "type": "color"
+          },
+          "main-outlined": {
+            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
+            "value": "colors.action.info.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -211,17 +216,17 @@
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
-          },
-          "main-outlined": {
-            "value": "{colors.action.info.main-contained}",
-            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "type": "color"
           }
         },
         "success": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
             "value": "$scale.color.alert.success.800",
+            "type": "color"
+          },
+          "main-outlined": {
+            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
+            "value": "$colors.action.success.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -265,17 +270,17 @@
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
-          },
-          "main-outlined": {
-            "value": "{colors.action.success.main-contained}",
-            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "type": "color"
           }
         },
         "warning": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
             "value": "$scale.color.alert.warning.500",
+            "type": "color"
+          },
+          "main-outlined": {
+            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
+            "value": "$colors.action.warning.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -319,17 +324,17 @@
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
-          },
-          "main-outlined": {
-            "value": "{colors.action.warning.main-contained}",
-            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "type": "color"
           }
         },
         "error": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
             "value": "$scale.color.alert.error.600",
+            "type": "color"
+          },
+          "main-outlined": {
+            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
+            "value": "$colors.action.error.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -373,11 +378,6 @@
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
-          },
-          "main-outlined": {
-            "value": "{colors.action.error.main-contained}",
-            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "type": "color"
           }
         }
       },
