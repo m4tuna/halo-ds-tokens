@@ -551,19 +551,14 @@
           "type": "color"
         }
       },
-      "other": {
-        "snackbar-background": {
-          "description": "Snackbar background color",
-          "value": "#3b3b3b",
-          "type": "color"
-        },
-        "rating-active": {
-          "value": "#ffc043",
-          "description": "Active state color for Rating component",
-          "type": "color"
-        }
-      },
       "alert": {
+        "snackbar": {
+          "strong-background": {
+            "description": "Snackbar background color",
+            "value": "$scale.color.gray.800",
+            "type": "color"
+          }
+        },
         "info": {
           "soft-background": {
             "value": "$scale.color.alert.info.50",
@@ -651,6 +646,13 @@
             "value": "rgba($scale.color.contrast.dark, 0.87)",
             "type": "color"
           }
+        }
+      },
+      "other": {
+        "rating-active": {
+          "value": "#ffc043",
+          "description": "Active state color for Rating component",
+          "type": "color"
         }
       }
     },
