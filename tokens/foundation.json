@@ -2585,6 +2585,26 @@
           }
         }
       }
+    },
+    "size": {
+      "base": {
+        "value": "$scale.content.size.base",
+        "type": "sizing"
+      },
+      "icon": {
+        "sm": {
+          "value": "$size.base * 10",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "$size.base * 12",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "$size.base * 16",
+          "type": "sizing"
+        }
+      }
     }
   }
 }
