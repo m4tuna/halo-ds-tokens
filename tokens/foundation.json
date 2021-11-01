@@ -563,6 +563,10 @@
             "value": "$scale.color.gray.800",
             "type": "color"
           },
+          "soft-border": {
+            "value": "$scale.color.alert.info.800",
+            "type": "color"
+          },
           "content-light": {
             "value": "$scale.color.contrast.light",
             "type": "color"
