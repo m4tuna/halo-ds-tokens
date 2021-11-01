@@ -2487,6 +2487,56 @@
           }
         }
       }
+    },
+    "spacing": {
+      "vertical-base": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "vertical-2": {
+        "value": "$spacing.vertical-base * 2",
+        "type": "spacing"
+      },
+      "vertical-3": {
+        "value": "$spacing.vertical-base * 3",
+        "type": "spacing"
+      },
+      "vertical-4": {
+        "value": "$spacing.vertical-base * 4",
+        "type": "spacing"
+      },
+      "vertical-5": {
+        "value": "$spacing.vertical-base * 5",
+        "type": "spacing"
+      },
+      "vertical-6": {
+        "value": "$spacing.vertical-base * 6",
+        "type": "spacing"
+      },
+      "vertical-7": {
+        "value": "$spacing.vertical-base * 7",
+        "type": "spacing"
+      },
+      "vertical-8": {
+        "value": "$spacing.vertical-base * 8",
+        "type": "spacing"
+      },
+      "vertical-9": {
+        "value": "$spacing.vertical-base * 9",
+        "type": "spacing"
+      },
+      "vertical-10": {
+        "value": "$spacing.vertical-base * 10",
+        "type": "spacing"
+      },
+      "vertical-11": {
+        "value": "$spacing.vertical-base * 11",
+        "type": "spacing"
+      },
+      "vertical-12": {
+        "value": "$spacing.vertical-base * 12",
+        "type": "spacing"
+      }
     }
   }
 }
