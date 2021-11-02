@@ -2576,9 +2576,19 @@
         },
         "contrast": {
           "light": {
+            "10": {
+              "value": "rgba(255, 255, 255, 0.10)",
+              "description": "10%",
+              "type": "other"
+            },
             "15": {
               "value": "rgba(255, 255, 255, 0.15)",
               "description": "15%",
+              "type": "other"
+            },
+            "20": {
+              "value": "rgba(255, 255, 255, 0.20)",
+              "description": "20%",
               "type": "other"
             },
             "25": {
@@ -2586,9 +2596,19 @@
               "description": "25%",
               "type": "other"
             },
+            "30": {
+              "value": "rgba(255, 255, 255, 0.30)",
+              "description": "30%",
+              "type": "other"
+            },
             "35": {
               "value": "rgba(255, 255, 255, 0.35)",
               "description": "35%",
+              "type": "other"
+            },
+            "40": {
+              "value": "rgba(255, 255, 255, 0.40)",
+              "description": "40%",
               "type": "other"
             },
             "45": {
@@ -2596,9 +2616,19 @@
               "description": "45%",
               "type": "other"
             },
+            "50": {
+              "value": "rgba(255, 255, 255, 0.50)",
+              "description": "50%",
+              "type": "other"
+            },
             "55": {
               "value": "rgba(255, 255, 255, 0.55)",
               "description": "55%",
+              "type": "other"
+            },
+            "60": {
+              "value": "rgba(255, 255, 255, 0.60)",
+              "description": "60%",
               "type": "other"
             },
             "65": {
@@ -2606,9 +2636,19 @@
               "description": "65%",
               "type": "other"
             },
+            "70": {
+              "value": "rgba(255, 255, 255, 0.70)",
+              "description": "70%",
+              "type": "other"
+            },
             "75": {
               "value": "rgba(255, 255, 255, 0.75)",
               "description": "75%",
+              "type": "other"
+            },
+            "80": {
+              "value": "rgba(255, 255, 255, 0.80)",
+              "description": "80%",
               "type": "other"
             },
             "85": {
@@ -2616,9 +2656,14 @@
               "description": "85%",
               "type": "other"
             },
+            "90": {
+              "value": "rgba(255, 255, 255, 0.90)",
+              "description": "90%",
+              "type": "other"
+            },
             "95": {
-              "value": "rgba(255, 255, 255, 0.95%)",
-              "description": "300",
+              "value": "rgba(255, 255, 255, 0.95)",
+              "description": "95%",
               "type": "other"
             },
             "100": {
@@ -2628,9 +2673,19 @@
             }
           },
           "dark": {
+            "10": {
+              "value": "rgba(0, 0, 0, 0.10)",
+              "description": "10%",
+              "type": "other"
+            },
             "15": {
               "value": "rgba(0, 0, 0, 0.15)",
               "description": "15%",
+              "type": "other"
+            },
+            "20": {
+              "value": "rgba(0, 0, 0, 0.20)",
+              "description": "20%",
               "type": "other"
             },
             "25": {
@@ -2638,9 +2693,19 @@
               "description": "25%",
               "type": "other"
             },
+            "30": {
+              "value": "rgba(0, 0, 0, 0.30)",
+              "description": "30%",
+              "type": "other"
+            },
             "35": {
               "value": "rgba(0, 0, 0, 0.35)",
               "description": "35%",
+              "type": "other"
+            },
+            "40": {
+              "value": "rgba(0, 0, 0, 0.40)",
+              "description": "40%",
               "type": "other"
             },
             "45": {
@@ -2648,14 +2713,29 @@
               "description": "45%",
               "type": "other"
             },
+            "50": {
+              "value": "rgba(0, 0, 0, 0.50)",
+              "description": "50%",
+              "type": "other"
+            },
             "55": {
               "value": "rgba(0, 0, 0, 0.55)",
               "description": "55%",
               "type": "other"
             },
+            "60": {
+              "value": "rgba(0, 0, 0, 0.60)",
+              "description": "60%",
+              "type": "other"
+            },
             "65": {
-              "value": "rgba(0, 0, 0, 0.65)",
+              "value": "rgba(255, 255, 255, 0.65)",
               "description": "65%",
+              "type": "other"
+            },
+            "70": {
+              "value": "rgba(0, 0, 0, 0.70)",
+              "description": "70%",
               "type": "other"
             },
             "75": {
@@ -2663,14 +2743,24 @@
               "description": "75%",
               "type": "other"
             },
+            "80": {
+              "value": "rgba(0, 0, 0, 0.80)",
+              "description": "80%",
+              "type": "other"
+            },
             "85": {
               "value": "rgba(0, 0, 0, 0.85)",
               "description": "85%",
               "type": "other"
             },
+            "90": {
+              "value": "rgba(0, 0, 0, 0.90)",
+              "description": "90%",
+              "type": "other"
+            },
             "95": {
-              "value": "rgba(0, 0, 0, 0.95%)",
-              "description": "300",
+              "value": "rgba(0, 0, 0, 0.95)",
+              "description": "95%",
               "type": "other"
             },
             "100": {
