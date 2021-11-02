@@ -383,19 +383,34 @@
       },
       "text": {
         "default": {
-          "main": {
+          "main-dark": {
             "value": "rgba($scale.color.contrast.dark, 0.87)",
             "description": "Text primary",
             "type": "color"
           },
-          "secondary": {
+          "main-light": {
+            "value": "rgba($scale.color.contrast.light)",
+            "description": "Text secondary",
+            "type": "color"
+          },
+          "secondary-dark": {
             "value": "rgba($scale.color.contrast.dark, 0.6)",
             "description": "Text secondary",
             "type": "color"
           },
-          "disabled": {
+          "secondary-light": {
+            "value": "rgba($scale.color.contrast.light, 0.6)",
+            "description": "Text secondary",
+            "type": "color"
+          },
+          "disabled-dark": {
             "value": "rgba($scale.color.contrast.dark, 0.4)",
             "description": "Text disabled",
+            "type": "color"
+          },
+          "disabled-light": {
+            "value": "rgba($scale.color.contrast.light, 0.4)",
+            "description": "Text secondary",
             "type": "color"
           }
         },
