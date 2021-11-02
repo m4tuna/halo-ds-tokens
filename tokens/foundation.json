@@ -402,11 +402,11 @@
         },
         "primary": {
           "main": {
-            "value": "$scale.color.blue.700",
+            "value": "$scale.color.blue.800",
             "type": "color"
           },
           "secondary": {
-            "value": "$scale.color.blue.500",
+            "value": "$scale.color.blue.700",
             "type": "color"
           },
           "disabled": {
@@ -416,11 +416,11 @@
         },
         "secondary": {
           "main": {
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.pink.800",
             "type": "color"
           },
           "secondary": {
-            "value": "$scale.color.pink.500",
+            "value": "$scale.color.pink.700",
             "type": "color"
           },
           "disabled": {
