@@ -405,8 +405,16 @@
             "value": "$scale.color.blue.800",
             "type": "color"
           },
+          "main-light": {
+            "value": "$scale.color.blue.200",
+            "type": "color"
+          },
           "secondary": {
             "value": "$scale.color.blue.700",
+            "type": "color"
+          },
+          "secondary-light": {
+            "value": "$scale.color.blue.500",
             "type": "color"
           },
           "disabled": {
@@ -419,8 +427,16 @@
             "value": "$scale.color.pink.800",
             "type": "color"
           },
+          "main-light": {
+            "value": "$scale.color.pink.200",
+            "type": "color"
+          },
           "secondary": {
             "value": "$scale.color.pink.700",
+            "type": "color"
+          },
+          "secondary-light": {
+            "value": "$scale.color.pink.500",
             "type": "color"
           },
           "disabled": {
