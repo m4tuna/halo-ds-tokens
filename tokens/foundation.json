@@ -23,37 +23,35 @@
             "value": "$colors.action.primary.main-contained",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "rgba(14, 83, 221, 1.0)",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "rgba(44, 110, 242, 1.0)",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.blue.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba(11, 65, 173, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba(11, 65, 173, 0.1)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba(11, 65, 173, 0.1)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "rgba(14, 83, 221, 1.0)",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "rgba(44, 110, 242, 1.0)",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.blue.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba(11, 65, 173, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba(11, 65, 173, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba(11, 65, 173, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "secondary": {
@@ -77,37 +75,35 @@
             "value": "$scale.color.pink.700",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.pink.500",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.pink.500",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.pink.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba($colors.action.secondary.main-contained, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba($colors.action.secondary.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba($colors.action.secondary.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.pink.500",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.pink.500",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.pink.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba($colors.action.secondary.main-contained, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.secondary.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.secondary.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "default": {
@@ -131,37 +127,35 @@
             "value": "$scale.color.contrast.dark.55",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.contrast.dark.45",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.contrast.dark.35",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.contrast.dark.85",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "$scale.color.contrast.dark.15",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "$scale.color.contrast.dark.10",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "$scale.color.contrast.dark.10",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.contrast.dark.45",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.contrast.dark.35",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.contrast.dark.85",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "$scale.color.contrast.dark.15",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "$scale.color.contrast.dark.10",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "$scale.color.contrast.dark.10",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "info": {
@@ -185,37 +179,35 @@
             "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.alert.info.300",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.alert.info.200",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.alert.info.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba($colors.action.info.main-contained, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba($colors.action.info.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba($colors.action.info.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.alert.info.300",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.alert.info.200",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.alert.info.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba($colors.action.info.main-contained, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.info.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.info.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "success": {
@@ -239,37 +231,35 @@
             "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.alert.success.700",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.alert.success.600",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.alert.success.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba($colors.action.success.main-contained, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba($colors.action.success.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba($colors.action.success.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.alert.success.700",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.alert.success.600",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.alert.success.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba($colors.action.success.main-contained, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.success.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.success.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "warning": {
@@ -293,37 +283,35 @@
             "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.alert.warning.400",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.alert.warning.300",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.alert.warning.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba({colors.action.warning.main-contained}, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba($colors.action.warning.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba($colors.action.warning.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.alert.warning.400",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.alert.warning.300",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.alert.warning.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba({colors.action.warning.main-contained}, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.warning.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.warning.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "error": {
@@ -347,37 +335,35 @@
             "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.alert.error.600",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.alert.error.500",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.alert.error.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba($colors.action.error.main-contained, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba($colors.action.error.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba($colors.action.error.main-contained, 0.1)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.alert.error.600",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.alert.error.500",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.alert.error.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba($colors.action.error.main-contained, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.error.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.error.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         }
       },
