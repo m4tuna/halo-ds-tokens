@@ -2351,12 +2351,12 @@
         },
         "contrast": {
           "light": {
-            "value": "#ffffff",
+            "value": "rgb(255, 255, 255)",
             "description": "White",
             "type": "other"
           },
           "dark": {
-            "value": "#000000",
+            "value": "rgb(0, 0, 0)",
             "type": "other"
           }
         },
