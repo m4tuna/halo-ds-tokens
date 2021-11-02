@@ -15,7 +15,7 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
@@ -69,7 +69,7 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
@@ -113,33 +113,33 @@
         "default": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "rgba($scale.color.contrast.dark, 0.54)",
+            "value": "$scale.color.contrast.dark.55",
             "type": "color"
           },
           "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "$colors.action.default.main-contained",
+            "value": "$scale.color.contrast.dark.55",
             "type": "color"
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.54)",
+            "value": "$scale.color.contrast.dark.55",
             "type": "color"
           },
           "states": {
             "contained-hover-background": {
               "description": "Background fill color for contained actions in hover state",
-              "value": "rgba($scale.color.contrast.dark, 0.40)",
+              "value": "$scale.color.contrast.dark.45",
               "type": "color"
             },
             "contained-active-background": {
               "description": "Background fill color for contained actions in active state",
-              "value": "rgba($scale.color.contrast.dark, 0.30)",
+              "value": "$scale.color.contrast.dark.35",
               "type": "color"
             },
             "focus": {
@@ -177,12 +177,12 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
           "states": {
@@ -231,12 +231,12 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
           "states": {
@@ -285,12 +285,12 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
           "states": {
@@ -339,12 +339,12 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
           "states": {
@@ -384,32 +384,32 @@
       "text": {
         "default": {
           "main-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "description": "Text primary",
             "type": "color"
           },
           "main-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "description": "Text secondary",
             "type": "color"
           },
           "secondary-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.6)",
+            "value": "$scale.color.contrast.dark.65",
             "description": "Text secondary",
             "type": "color"
           },
           "secondary-light": {
-            "value": "rgba($scale.color.contrast.light, 0.6)",
+            "value": "$scale.color.contrast.light.65",
             "description": "Text secondary",
             "type": "color"
           },
           "disabled-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.4)",
+            "value": "$scale.color.contrast.dark.45",
             "description": "Text disabled",
             "type": "color"
           },
           "disabled-light": {
-            "value": "rgba($scale.color.contrast.light, 0.4)",
+            "value": "$scale.color.contrast.light.45",
             "description": "Text secondary",
             "type": "color"
           }
@@ -457,16 +457,16 @@
           },
           "light": {
             "description": "Background light",
-            "value": "rgba($scale.color.contrast.light, 1.0)",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "modal-overlay": {
-            "value": "rgba($scale.color.contrast.dark, 0.5)",
+            "value": "$scale.color.contrast.dark.55",
             "description": "Backdrop color",
             "type": "color"
           },
           "divider": {
-            "value": "rgba($scale.color.contrast.dark, 0.12)",
+            "value": "$scale.color.contrast.dark.15",
             "type": "color"
           }
         },
@@ -508,7 +508,7 @@
       "surface": {
         "default": {
           "main": {
-            "value": "rgba($scale.color.contrast.light, 1.0)",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "dark": {
@@ -558,25 +558,25 @@
       },
       "form": {
         "input-border": {
-          "value": "rgba($scale.color.contrast.dark, 0.23)",
+          "value": "$scale.color.contrast.dark.25",
           "description": "Border style for outlined variant components in resting state (Text Field, Select, Chips, etc)",
           "type": "color"
         },
         "input-background": {
-          "value": "rgba($scale.color.contrast.dark, 0.09)",
+          "value": "$scale.color.contrast.dark.15",
           "description": "Fill background for standard variant Text Field & Select",
           "type": "color"
         },
         "input-label": {
-          "value": "$colors.text.default.secondary",
+          "value": "$colors.text.default.secondary-dark",
           "type": "color"
         },
         "input-text": {
-          "value": "$colors.text.default.main",
+          "value": "$colors.text.default.main-dark",
           "type": "color"
         },
         "helper-text": {
-          "value": "$colors.text.default.secondary",
+          "value": "$colors.text.default.secondary-dark",
           "type": "color"
         }
       },
@@ -597,11 +597,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         },
@@ -619,11 +619,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         },
@@ -641,11 +641,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         },
@@ -663,11 +663,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         },
@@ -685,11 +685,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         }
@@ -2574,108 +2574,110 @@
             }
           }
         },
-        "contrast-light": {
-          "15": {
-            "value": "rgba(255, 255, 255, 0.15)",
-            "description": "15%",
-            "type": "other"
+        "contrast": {
+          "light": {
+            "15": {
+              "value": "rgba(255, 255, 255, 0.15)",
+              "description": "15%",
+              "type": "other"
+            },
+            "25": {
+              "value": "rgba(255, 255, 255, 0.25)",
+              "description": "25%",
+              "type": "other"
+            },
+            "35": {
+              "value": "rgba(255, 255, 255, 0.35)",
+              "description": "35%",
+              "type": "other"
+            },
+            "45": {
+              "value": "rgba(255, 255, 255, 0.45)",
+              "description": "45%",
+              "type": "other"
+            },
+            "55": {
+              "value": "rgba(255, 255, 255, 0.55)",
+              "description": "55%",
+              "type": "other"
+            },
+            "65": {
+              "value": "rgba(255, 255, 255, 0.65)",
+              "description": "65%",
+              "type": "other"
+            },
+            "75": {
+              "value": "rgba(255, 255, 255, 0.75)",
+              "description": "75%",
+              "type": "other"
+            },
+            "85": {
+              "value": "rgba(255, 255, 255, 0.85)",
+              "description": "85%",
+              "type": "other"
+            },
+            "95": {
+              "value": "rgba(255, 255, 255, 0.95%)",
+              "description": "300",
+              "type": "other"
+            },
+            "100": {
+              "value": "rgba(255, 255, 255, 1.0)",
+              "description": "100%",
+              "type": "other"
+            }
           },
-          "25": {
-            "value": "rgba(255, 255, 255, 0.25)",
-            "description": "25%",
-            "type": "other"
-          },
-          "35": {
-            "value": "rgba(255, 255, 255, 0.35)",
-            "description": "35%",
-            "type": "other"
-          },
-          "45": {
-            "value": "rgba(255, 255, 255, 0.45)",
-            "description": "45%",
-            "type": "other"
-          },
-          "55": {
-            "value": "rgba(255, 255, 255, 0.55)",
-            "description": "55%",
-            "type": "other"
-          },
-          "65": {
-            "value": "rgba(255, 255, 255, 0.65)",
-            "description": "65%",
-            "type": "other"
-          },
-          "75": {
-            "value": "rgba(255, 255, 255, 0.75)",
-            "description": "75%",
-            "type": "other"
-          },
-          "85": {
-            "value": "rgba(255, 255, 255, 0.85)",
-            "description": "85%",
-            "type": "other"
-          },
-          "95": {
-            "value": "rgba(255, 255, 255, 0.95%)",
-            "description": "300",
-            "type": "other"
-          },
-          "100": {
-            "value": "rgba(255, 255, 255, 1.0)",
-            "description": "100%",
-            "type": "other"
-          }
-        },
-        "contrast-dark": {
-          "15": {
-            "value": "rgba(0, 0, 0, 0.15)",
-            "description": "15%",
-            "type": "other"
-          },
-          "25": {
-            "value": "rgba(0, 0, 0, 0.25)",
-            "description": "25%",
-            "type": "other"
-          },
-          "35": {
-            "value": "rgba(0, 0, 0, 0.35)",
-            "description": "35%",
-            "type": "other"
-          },
-          "45": {
-            "value": "rgba(0, 0, 0, 0.45)",
-            "description": "45%",
-            "type": "other"
-          },
-          "55": {
-            "value": "rgba(0, 0, 0, 0.55)",
-            "description": "55%",
-            "type": "other"
-          },
-          "65": {
-            "value": "rgba(0, 0, 0, 0.65)",
-            "description": "65%",
-            "type": "other"
-          },
-          "75": {
-            "value": "rgba(0, 0, 0, 0.75)",
-            "description": "75%",
-            "type": "other"
-          },
-          "85": {
-            "value": "rgba(0, 0, 0, 0.85)",
-            "description": "85%",
-            "type": "other"
-          },
-          "95": {
-            "value": "rgba(0, 0, 0, 0.95%)",
-            "description": "300",
-            "type": "other"
-          },
-          "100": {
-            "value": "rgba(0, 0, 0, 1.0)",
-            "description": "100%",
-            "type": "other"
+          "dark": {
+            "15": {
+              "value": "rgba(0, 0, 0, 0.15)",
+              "description": "15%",
+              "type": "other"
+            },
+            "25": {
+              "value": "rgba(0, 0, 0, 0.25)",
+              "description": "25%",
+              "type": "other"
+            },
+            "35": {
+              "value": "rgba(0, 0, 0, 0.35)",
+              "description": "35%",
+              "type": "other"
+            },
+            "45": {
+              "value": "rgba(0, 0, 0, 0.45)",
+              "description": "45%",
+              "type": "other"
+            },
+            "55": {
+              "value": "rgba(0, 0, 0, 0.55)",
+              "description": "55%",
+              "type": "other"
+            },
+            "65": {
+              "value": "rgba(0, 0, 0, 0.65)",
+              "description": "65%",
+              "type": "other"
+            },
+            "75": {
+              "value": "rgba(0, 0, 0, 0.75)",
+              "description": "75%",
+              "type": "other"
+            },
+            "85": {
+              "value": "rgba(0, 0, 0, 0.85)",
+              "description": "85%",
+              "type": "other"
+            },
+            "95": {
+              "value": "rgba(0, 0, 0, 0.95%)",
+              "description": "300",
+              "type": "other"
+            },
+            "100": {
+              "value": "rgba(0, 0, 0, 1.0)",
+              "description": "100%",
+              "type": "other"
+            }
           }
         }
       },
