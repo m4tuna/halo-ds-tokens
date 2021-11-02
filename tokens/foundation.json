@@ -109,12 +109,12 @@
         "default": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "$scale.color.contrast.dark.55",
+            "value": "$scale.color.contrast.dark.65",
             "type": "color"
           },
           "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "$scale.color.contrast.dark.55",
+            "value": "$scale.color.contrast.dark.65",
             "type": "color"
           },
           "content-light": {
@@ -124,17 +124,17 @@
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$scale.color.contrast.dark.55",
+            "value": "$scale.color.contrast.dark.65",
             "type": "color"
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.contrast.dark.45",
+            "value": "$scale.color.contrast.dark.55",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.contrast.dark.35",
+            "value": "$scale.color.contrast.dark.45",
             "type": "color"
           },
           "focus": {
