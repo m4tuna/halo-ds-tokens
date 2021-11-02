@@ -45,12 +45,12 @@
               "type": "color"
             },
             "outlined-hover-background": {
-              "value": "rgba(11, 65, 173, 0.08)",
+              "value": "rgba(11, 65, 173, 0.1)",
               "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
               "type": "color"
             },
             "outlined-active-background": {
-              "value": "rgba(11, 65, 173, 0.08)",
+              "value": "rgba(11, 65, 173, 0.1)",
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
@@ -99,12 +99,12 @@
               "type": "color"
             },
             "outlined-hover-background": {
-              "value": "rgba($colors.action.secondary.main-contained}, 0.08)",
+              "value": "rgba($colors.action.secondary.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
               "type": "color"
             },
             "outlined-active-background": {
-              "value": "rgba($colors.action.secondary.main-contained}, 0.08)",
+              "value": "rgba($colors.action.secondary.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
@@ -144,21 +144,21 @@
             },
             "focus": {
               "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.contrast.dark",
+              "value": "$scale.color.contrast.dark.85",
               "type": "color"
             },
             "contained-disabled-background": {
-              "value": "rgba($scale.color.contrast.dark, 0.12)",
+              "value": "$scale.color.contrast.dark.15",
               "description": "Background fill color for contained actions in disabled state (Button)",
               "type": "color"
             },
             "outlined-hover-background": {
-              "value": "rgba($scale.color.contrast.dark, 0.04)",
+              "value": "$scale.color.contrast.dark.10",
               "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
               "type": "color"
             },
             "outlined-active-background": {
-              "value": "rgba($scale.color.contrast.dark, 0.08)",
+              "value": "$scale.color.contrast.dark.10",
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
@@ -202,17 +202,17 @@
               "type": "color"
             },
             "contained-disabled-background": {
-              "value": "rgba({colors.action.info.main-contained}, 0.4)",
+              "value": "rgba($colors.action.info.main-contained, 0.4)",
               "description": "Background fill color for contained actions in disabled state (Button)",
               "type": "color"
             },
             "outlined-hover-background": {
-              "value": "rgba({colors.action.info.main-contained}, 0.08)",
+              "value": "rgba($colors.action.info.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
               "type": "color"
             },
             "outlined-active-background": {
-              "value": "rgba({colors.action.info.main-contained}, 0.08)",
+              "value": "rgba($colors.action.info.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
@@ -256,17 +256,17 @@
               "type": "color"
             },
             "contained-disabled-background": {
-              "value": "rgba({colors.action.success.main-contained}, 0.4)",
+              "value": "rgba($colors.action.success.main-contained, 0.4)",
               "description": "Background fill color for contained actions in disabled state (Button)",
               "type": "color"
             },
             "outlined-hover-background": {
-              "value": "rgba({colors.action.success.main-contained}, 0.08)",
+              "value": "rgba($colors.action.success.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
               "type": "color"
             },
             "outlined-active-background": {
-              "value": "rgba({colors.action.success.main-contained}, 0.08)",
+              "value": "rgba($colors.action.success.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
@@ -315,12 +315,12 @@
               "type": "color"
             },
             "outlined-hover-background": {
-              "value": "rgba(237, 108, 2, 0.08)",
+              "value": "rgba($colors.action.warning.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
               "type": "color"
             },
             "outlined-active-background": {
-              "value": "rgba(237, 108, 2, 0.08)",
+              "value": "rgba($colors.action.warning.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
@@ -364,17 +364,17 @@
               "type": "color"
             },
             "contained-disabled-background": {
-              "value": "rgba({colors.action.error.main-contained}, 0.4)",
+              "value": "rgba($colors.action.error.main-contained, 0.4)",
               "description": "Background fill color for contained actions in disabled state (Button)",
               "type": "color"
             },
             "outlined-hover-background": {
-              "value": "rgba({colors.action.error.main-contained}, 0.08)",
+              "value": "rgba($colors.action.error.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
               "type": "color"
             },
             "outlined-active-background": {
-              "value": "rgba({colors.action.error.main-contained}, 0.08)",
+              "value": "rgba($colors.action.error.main-contained, 0.1)",
               "description": "Background fill color for outlined actions in active state (Button)",
               "type": "color"
             }
@@ -404,12 +404,12 @@
             "type": "color"
           },
           "disabled-dark": {
-            "value": "$scale.color.contrast.dark.45",
+            "value": "$scale.color.contrast.dark.40",
             "description": "Text disabled",
             "type": "color"
           },
           "disabled-light": {
-            "value": "$scale.color.contrast.light.45",
+            "value": "$scale.color.contrast.light.40",
             "description": "Text secondary",
             "type": "color"
           }
@@ -424,7 +424,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({colors.text.primary.main}, 0.4)",
+            "value": "rgba($colors.text.primary.main, 0.4)",
             "type": "color"
           }
         },
@@ -438,7 +438,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({colors.text.secondary.main}, 0.4)",
+            "value": "rgba($colors.text.secondary.main, 0.4)",
             "type": "color"
           }
         }
@@ -461,12 +461,12 @@
             "type": "color"
           },
           "modal-overlay": {
-            "value": "$scale.color.contrast.dark.55",
+            "value": "$scale.color.contrast.dark.50",
             "description": "Backdrop color",
             "type": "color"
           },
           "divider": {
-            "value": "$scale.color.contrast.dark.15",
+            "value": "$scale.color.contrast.dark.10",
             "type": "color"
           }
         },
@@ -563,7 +563,7 @@
           "type": "color"
         },
         "input-background": {
-          "value": "$scale.color.contrast.dark.15",
+          "value": "$scale.color.contrast.dark.10",
           "description": "Fill background for standard variant Text Field & Select",
           "type": "color"
         },
@@ -2729,7 +2729,7 @@
               "type": "other"
             },
             "65": {
-              "value": "rgba(255, 255, 255, 0.65)",
+              "value": "rgba(0, 0, 0, 0.65)",
               "description": "65%",
               "type": "other"
             },
