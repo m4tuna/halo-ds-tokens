@@ -389,7 +389,7 @@
             "type": "color"
           },
           "main-light": {
-            "value": "rgba($scale.color.contrast.light)",
+            "value": "$scale.color.contrast.light",
             "description": "Text secondary",
             "type": "color"
           },
@@ -2576,12 +2576,12 @@
         },
         "contrast": {
           "light": {
-            "value": "rgb(255, 255, 255)",
+            "value": "#ffffff",
             "description": "White",
             "type": "other"
           },
           "dark": {
-            "value": "rgb(0, 0, 0)",
+            "value": "#000000",
             "type": "other"
           }
         }
