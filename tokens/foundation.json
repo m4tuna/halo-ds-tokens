@@ -702,6 +702,28 @@
           "description": "Active state color for Rating component",
           "type": "color"
         }
+      },
+      "gradient": {
+        "blue-green": {
+          "value": "linear-gradient(145deg, rgba(0,172,85,1) 0%, rgba(0,157,224,1) 100%)",
+          "type": "color"
+        },
+        "blue-teal": {
+          "value": "linear-gradient(145deg, rgba(0,119,160,1) 0%, rgba(0,157,224,1) 100%)",
+          "type": "color"
+        },
+        "blue-purple": {
+          "value": "linear-gradient(145deg, rgba(130,70,175,1) 0%, rgba(0,157,224,1) 100%)",
+          "type": "color"
+        },
+        "blue-pink": {
+          "value": "linear-gradient(145deg, rgba(238,61,139,1) 0%, rgba(0,157,224,1) 100%)",
+          "type": "color"
+        },
+        "blue-turquoise": {
+          "value": "linear-gradient(145deg, rgba(0,150,143,1) 0%, rgba(0,157,224,1) 100%)",
+          "type": "color"
+        }
       }
     },
     "typography": {
