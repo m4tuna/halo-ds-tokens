@@ -2349,17 +2349,6 @@
             "type": "other"
           }
         },
-        "contrast": {
-          "light": {
-            "value": "rgb(255, 255, 255)",
-            "description": "White",
-            "type": "other"
-          },
-          "dark": {
-            "value": "rgb(0, 0, 0)",
-            "type": "other"
-          }
-        },
         "alert": {
           "info": {
             "50": {
@@ -2568,6 +2557,17 @@
               "description": "900",
               "type": "other"
             }
+          }
+        },
+        "contrast": {
+          "light": {
+            "value": "rgb(255, 255, 255)",
+            "description": "White",
+            "type": "other"
+          },
+          "dark": {
+            "value": "rgb(0, 0, 0)",
+            "type": "other"
           }
         }
       },
