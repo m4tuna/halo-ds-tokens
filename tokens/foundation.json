@@ -54,6 +54,58 @@
             "type": "color"
           }
         },
+        "primary-reverse": {
+          "main-contained": {
+            "description": "Main fill background color used for components in rest state (Buttons, form controls)",
+            "value": "$scale.color.contrast.light.100",
+            "type": "color"
+          },
+          "main-outlined": {
+            "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
+            "value": "$scale.color.contrast.light.100",
+            "type": "color"
+          },
+          "content-light": {
+            "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
+            "value": "$scale.color.contrast.light.100",
+            "type": "color"
+          },
+          "content-dark": {
+            "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
+            "value": "$colors.action.primary.main-contained",
+            "type": "color"
+          },
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "rgba(14, 83, 221, 1.0)",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "rgba(44, 110, 242, 1.0)",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.blue.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba(11, 65, 173, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba(11, 65, 173, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba(11, 65, 173, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
+          }
+        },
         "secondary": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
