@@ -96,12 +96,12 @@
             "type": "color"
           },
           "outlined-hover-background": {
-            "value": "rgba(11, 65, 173, 0.1)",
+            "value": "$scale.color.contrast.light.100",
             "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
             "type": "color"
           },
           "outlined-active-background": {
-            "value": "rgba(11, 65, 173, 0.1)",
+            "value": "$scale.color.contrast.light.100",
             "description": "Background fill color for outlined actions in active state (Button)",
             "type": "color"
           }
