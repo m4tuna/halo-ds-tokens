@@ -1175,7 +1175,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "$scale.color.contrast.dark"
+            "color": "$colorPalette.contrast.dark"
           },
           "type": "boxShadow"
         },
@@ -1185,7 +1185,7 @@
             "y": "$scale.content.size.base * 2",
             "blur": "$scale.content.size.base * 2",
             "spread": "0",
-            "color": "rgba($scale.color.contrast.dark, 0.16)"
+            "color": "rgba($colorPalette.contrast.dark, 0.16)"
           },
           "type": "boxShadow"
         },
@@ -1195,7 +1195,7 @@
             "y": "$scale.content.size.base * 4",
             "blur": "$scale.content.size.base * 4",
             "spread": "0",
-            "color": "rgba($scale.color.contrast.dark, 0.16)"
+            "color": "rgba($colorPalette.contrast.dark, 0.16)"
           },
           "type": "boxShadow"
         },
@@ -1205,7 +1205,7 @@
             "blur": "$scale.content.size.base * 8",
             "spread": "0",
             "x": "0",
-            "color": "rgba($scale.color.contrast.dark, 0.16)"
+            "color": "rgba($colorPalette.contrast.dark, 0.16)"
           },
           "type": "boxShadow"
         },
@@ -1215,7 +1215,7 @@
             "y": "$scale.content.size.base * 12",
             "blur": "$scale.content.size.base * 12",
             "spread": "0",
-            "color": "rgba($scale.color.contrast.dark, 0.16)"
+            "color": "rgba($colorPalette.contrast.dark, 0.16)"
           },
           "type": "boxShadow"
         }
