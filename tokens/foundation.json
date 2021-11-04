@@ -800,7 +800,7 @@
           }
         }
       },
-      "other": {
+      "reaction": {
         "rating-active": {
           "value": "#ffc043",
           "description": "Active state color for Rating component",
