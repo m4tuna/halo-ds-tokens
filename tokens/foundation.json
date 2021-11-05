@@ -15,7 +15,7 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
@@ -23,37 +23,87 @@
             "value": "$colors.action.primary.main-contained",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "rgba(14, 83, 221, 1.0)",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "rgba(44, 110, 242, 1.0)",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.blue.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba(11, 65, 173, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba(11, 65, 173, 0.08)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba(11, 65, 173, 0.08)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "rgba(14, 83, 221, 1.0)",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "rgba(44, 110, 242, 1.0)",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.blue.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba(11, 65, 173, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba(11, 65, 173, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba(11, 65, 173, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
+          }
+        },
+        "primary-reverse": {
+          "main-contained": {
+            "description": "Main fill background color used for components in rest state (Buttons, form controls)",
+            "value": "$scale.color.contrast.light.100",
+            "type": "color"
+          },
+          "main-outlined": {
+            "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
+            "value": "$scale.color.contrast.light.100",
+            "type": "color"
+          },
+          "content-light": {
+            "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
+            "value": "$scale.color.contrast.light.100",
+            "type": "color"
+          },
+          "content-dark": {
+            "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
+            "value": "$colors.action.primary.main-contained",
+            "type": "color"
+          },
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "rgba(14, 83, 221, 1.0)",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "rgba(44, 110, 242, 1.0)",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.blue.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba(11, 65, 173, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "$scale.color.contrast.light.100",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "$scale.color.contrast.light.100",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "secondary": {
@@ -69,7 +119,7 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
@@ -77,43 +127,46 @@
             "value": "$scale.color.pink.700",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.pink.500",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.pink.500",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.pink.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba($colors.action.secondary.main-contained, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba($colors.action.secondary.main-contained}, 0.08)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba($colors.action.secondary.main-contained}, 0.08)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.pink.600",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.pink.500",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.pink.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba($colors.action.secondary.main-contained, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.secondary.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.secondary.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
-        "default": {
+        "secondary-reverse": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "rgba($scale.color.contrast.dark, 0.54)",
+            "value": "$scale.color.contrast.light.100",
+            "type": "color"
+          },
+          "main-outlined": {
+            "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "main-outlined": {
@@ -123,45 +176,95 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.54)",
+            "value": "$scale.color.pink.700",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "rgba($scale.color.contrast.dark, 0.40)",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "rgba($scale.color.contrast.dark, 0.30)",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.contrast.dark",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba($scale.color.contrast.dark, 0.12)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba($scale.color.contrast.dark, 0.04)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba($scale.color.contrast.dark, 0.08)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.pink.600",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.pink.500",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.pink.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba($colors.action.secondary.main-contained, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "$scale.color.contrast.light.100",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "$scale.color.contrast.light.100",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
+          }
+        },
+        "default": {
+          "main-contained": {
+            "description": "Main fill background color used for components in rest state (Buttons, form controls)",
+            "value": "$scale.color.contrast.dark.65",
+            "type": "color"
+          },
+          "main-outlined": {
+            "description": "Outline fill color for outlined actions in rest state (Button, chip)",
+            "value": "$scale.color.contrast.dark.65",
+            "type": "color"
+          },
+          "content-light": {
+            "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
+            "value": "$scale.color.contrast.light.100",
+            "type": "color"
+          },
+          "content-dark": {
+            "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
+            "value": "$scale.color.contrast.dark.65",
+            "type": "color"
+          },
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.contrast.dark.55",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.contrast.dark.45",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.contrast.dark.85",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "$scale.color.contrast.dark.20",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "$scale.color.contrast.dark.10",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "$scale.color.contrast.dark.10",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "info": {
@@ -177,45 +280,43 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.alert.info.300",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.alert.info.200",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.alert.info.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba({colors.action.info.main-contained}, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba({colors.action.info.main-contained}, 0.08)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba({colors.action.info.main-contained}, 0.08)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.alert.info.300",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.alert.info.200",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.alert.info.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba($colors.action.info.main-contained, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.info.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.info.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "success": {
@@ -231,45 +332,43 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.alert.success.700",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.alert.success.600",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.alert.success.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba({colors.action.success.main-contained}, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba({colors.action.success.main-contained}, 0.08)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba({colors.action.success.main-contained}, 0.08)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.alert.success.700",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.alert.success.600",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.alert.success.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba($colors.action.success.main-contained, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.success.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.success.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "warning": {
@@ -285,45 +384,43 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.alert.warning.400",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.alert.warning.300",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.alert.warning.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba({colors.action.warning.main-contained}, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba(237, 108, 2, 0.08)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba(237, 108, 2, 0.08)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.alert.warning.400",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.alert.warning.300",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.alert.warning.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba({colors.action.warning.main-contained}, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.warning.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.warning.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         },
         "error": {
@@ -339,91 +436,120 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
-          "states": {
-            "contained-hover-background": {
-              "description": "Background fill color for contained actions in hover state",
-              "value": "$scale.color.alert.error.600",
-              "type": "color"
-            },
-            "contained-active-background": {
-              "description": "Background fill color for contained actions in active state",
-              "value": "$scale.color.alert.error.500",
-              "type": "color"
-            },
-            "focus": {
-              "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-              "value": "$scale.color.alert.error.200",
-              "type": "color"
-            },
-            "contained-disabled-background": {
-              "value": "rgba({colors.action.error.main-contained}, 0.4)",
-              "description": "Background fill color for contained actions in disabled state (Button)",
-              "type": "color"
-            },
-            "outlined-hover-background": {
-              "value": "rgba({colors.action.error.main-contained}, 0.08)",
-              "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
-              "type": "color"
-            },
-            "outlined-active-background": {
-              "value": "rgba({colors.action.error.main-contained}, 0.08)",
-              "description": "Background fill color for outlined actions in active state (Button)",
-              "type": "color"
-            }
+          "contained-hover-background": {
+            "description": "Background fill color for contained actions in hover state",
+            "value": "$scale.color.alert.error.600",
+            "type": "color"
+          },
+          "contained-active-background": {
+            "description": "Background fill color for contained actions in active state",
+            "value": "$scale.color.alert.error.500",
+            "type": "color"
+          },
+          "focus": {
+            "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
+            "value": "$scale.color.alert.error.200",
+            "type": "color"
+          },
+          "contained-disabled-background": {
+            "value": "rgba($colors.action.error.main-contained, 0.4)",
+            "description": "Background fill color for contained actions in disabled state (Button)",
+            "type": "color"
+          },
+          "outlined-hover-background": {
+            "value": "rgba($colors.action.error.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
+            "type": "color"
+          },
+          "outlined-active-background": {
+            "value": "rgba($colors.action.error.main-contained, 0.1)",
+            "description": "Background fill color for outlined actions in active state (Button)",
+            "type": "color"
           }
         }
       },
       "text": {
         "default": {
-          "main": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+          "main-dark": {
+            "value": "$scale.color.contrast.dark.85",
             "description": "Text primary",
             "type": "color"
           },
-          "secondary": {
-            "value": "rgba($scale.color.contrast.dark, 0.6)",
+          "main-light": {
+            "value": "$scale.color.contrast.light.100",
             "description": "Text secondary",
             "type": "color"
           },
-          "disabled": {
-            "value": "rgba($scale.color.contrast.dark, 0.4)",
+          "secondary-dark": {
+            "value": "$scale.color.contrast.dark.65",
+            "description": "Text secondary",
+            "type": "color"
+          },
+          "secondary-light": {
+            "value": "$scale.color.contrast.light.65",
+            "description": "Text secondary",
+            "type": "color"
+          },
+          "disabled-dark": {
+            "value": "$scale.color.contrast.dark.40",
             "description": "Text disabled",
+            "type": "color"
+          },
+          "disabled-light": {
+            "value": "$scale.color.contrast.light.40",
+            "description": "Text secondary",
             "type": "color"
           }
         },
         "primary": {
           "main": {
-            "value": "$scale.color.blue.700",
+            "value": "$scale.color.blue.800",
+            "type": "color"
+          },
+          "main-light": {
+            "value": "$scale.color.blue.200",
             "type": "color"
           },
           "secondary": {
+            "value": "$scale.color.blue.700",
+            "type": "color"
+          },
+          "secondary-light": {
             "value": "$scale.color.blue.500",
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({colors.text.primary.main}, 0.4)",
+            "value": "rgba($colors.text.primary.main, 0.4)",
             "type": "color"
           }
         },
         "secondary": {
           "main": {
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.pink.800",
+            "type": "color"
+          },
+          "main-light": {
+            "value": "$scale.color.pink.200",
             "type": "color"
           },
           "secondary": {
+            "value": "$scale.color.pink.700",
+            "type": "color"
+          },
+          "secondary-light": {
             "value": "$scale.color.pink.500",
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({colors.text.secondary.main}, 0.4)",
+            "value": "rgba($colors.text.secondary.main, 0.4)",
             "type": "color"
           }
         }
@@ -442,16 +568,16 @@
           },
           "light": {
             "description": "Background light",
-            "value": "rgba($scale.color.contrast.light, 1.0)",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "modal-overlay": {
-            "value": "rgba($scale.color.contrast.dark, 0.5)",
+            "value": "$scale.color.contrast.dark.50",
             "description": "Backdrop color",
             "type": "color"
           },
           "divider": {
-            "value": "rgba($scale.color.contrast.dark, 0.12)",
+            "value": "$scale.color.contrast.dark.10",
             "type": "color"
           }
         },
@@ -493,7 +619,7 @@
       "surface": {
         "default": {
           "main": {
-            "value": "rgba($scale.color.contrast.light, 1.0)",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "dark": {
@@ -543,25 +669,25 @@
       },
       "form": {
         "input-border": {
-          "value": "rgba($scale.color.contrast.dark, 0.23)",
+          "value": "$scale.color.contrast.dark.25",
           "description": "Border style for outlined variant components in resting state (Text Field, Select, Chips, etc)",
           "type": "color"
         },
         "input-background": {
-          "value": "rgba($scale.color.contrast.dark, 0.09)",
+          "value": "$scale.color.contrast.dark.10",
           "description": "Fill background for standard variant Text Field & Select",
           "type": "color"
         },
         "input-label": {
-          "value": "$colors.text.default.secondary",
+          "value": "$colors.text.default.secondary-dark",
           "type": "color"
         },
         "input-text": {
-          "value": "$colors.text.default.main",
+          "value": "$colors.text.default.main-dark",
           "type": "color"
         },
         "helper-text": {
-          "value": "$colors.text.default.secondary",
+          "value": "$colors.text.default.secondary-dark",
           "type": "color"
         }
       },
@@ -582,11 +708,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         },
@@ -604,11 +730,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         },
@@ -626,11 +752,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         },
@@ -648,11 +774,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         },
@@ -670,19 +796,41 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$scale.color.contrast.light",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "rgba($scale.color.contrast.dark, 0.87)",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           }
         }
       },
-      "other": {
+      "reaction": {
         "rating-active": {
           "value": "#ffc043",
           "description": "Active state color for Rating component",
+          "type": "color"
+        }
+      },
+      "gradient": {
+        "blue-green": {
+          "value": "linear-gradient(145deg, rgba(0,172,85,1) 0%, rgba(0,157,224,1) 100%)",
+          "type": "color"
+        },
+        "blue-teal": {
+          "value": "linear-gradient(145deg, rgba(0,119,160,1) 0%, rgba(0,157,224,1) 100%)",
+          "type": "color"
+        },
+        "blue-purple": {
+          "value": "linear-gradient(145deg, rgba(130,70,175,1) 0%, rgba(0,157,224,1) 100%)",
+          "type": "color"
+        },
+        "blue-pink": {
+          "value": "linear-gradient(145deg, rgba(238,61,139,1) 0%, rgba(0,157,224,1) 100%)",
+          "type": "color"
+        },
+        "blue-turquoise": {
+          "value": "linear-gradient(145deg, rgba(0,150,143,1) 0%, rgba(0,157,224,1) 100%)",
           "type": "color"
         }
       }
@@ -1833,6 +1981,104 @@
         }
       }
     },
+    "spacing": {
+      "base": {
+        "value": "$scale.content.spacing.base",
+        "type": "spacing"
+      },
+      "vertical-2": {
+        "value": "$spacing.base * 2",
+        "type": "spacing"
+      },
+      "vertical-3": {
+        "value": "$spacing.base * 3",
+        "type": "spacing"
+      },
+      "vertical-4": {
+        "value": "$spacing.base * 4",
+        "type": "spacing"
+      },
+      "vertical-5": {
+        "value": "$spacing.base * 5",
+        "type": "spacing"
+      },
+      "vertical-6": {
+        "value": "$spacing.base * 6",
+        "type": "spacing"
+      },
+      "vertical-7": {
+        "value": "$spacing.base * 7",
+        "type": "spacing"
+      },
+      "vertical-8": {
+        "value": "$spacing.base * 8",
+        "type": "spacing"
+      },
+      "vertical-9": {
+        "value": "$spacing.base * 9",
+        "type": "spacing"
+      },
+      "vertical-10": {
+        "value": "$spacing.base * 10",
+        "type": "spacing"
+      },
+      "vertical-11": {
+        "value": "$spacing.base * 11",
+        "type": "spacing"
+      },
+      "vertical-12": {
+        "value": "$spacing.base * 12",
+        "type": "spacing"
+      },
+      "horizontal-2": {
+        "value": "$spacing.base * 2",
+        "type": "spacing"
+      },
+      "horizontal-3": {
+        "value": "$spacing.base * 3",
+        "type": "spacing"
+      },
+      "horizontal-4": {
+        "value": "$spacing.base * 4",
+        "type": "spacing"
+      },
+      "horizontal-5": {
+        "value": "$spacing.base * 5",
+        "type": "spacing"
+      },
+      "horizontal-6": {
+        "value": "$spacing.base * 6",
+        "type": "spacing"
+      },
+      "horizontal-7": {
+        "value": "$spacing.base * 7",
+        "type": "spacing"
+      },
+      "horizontal-8": {
+        "value": "$spacing.base * 8",
+        "type": "spacing"
+      },
+      "horizontal-9": {
+        "value": "$spacing.base * 9",
+        "type": "spacing"
+      },
+      "horizontal-10": {
+        "value": "$spacing.base * 10",
+        "type": "spacing"
+      },
+      "horizontal-11": {
+        "value": "$spacing.base * 11",
+        "type": "spacing"
+      },
+      "horizontal-12": {
+        "value": "$spacing.base * 12",
+        "type": "spacing"
+      },
+      "none": {
+        "value": "0",
+        "type": "spacing"
+      }
+    },
     "scale": {
       "color": {
         "blue": {
@@ -2251,17 +2497,6 @@
             "type": "other"
           }
         },
-        "contrast": {
-          "light": {
-            "value": "#ffffff",
-            "description": "White",
-            "type": "other"
-          },
-          "dark": {
-            "value": "#000000",
-            "type": "other"
-          }
-        },
         "alert": {
           "info": {
             "50": {
@@ -2471,6 +2706,202 @@
               "type": "other"
             }
           }
+        },
+        "contrast": {
+          "light": {
+            "10": {
+              "value": "rgba(255, 255, 255, 0.10)",
+              "description": "10%",
+              "type": "other"
+            },
+            "15": {
+              "value": "rgba(255, 255, 255, 0.15)",
+              "description": "15%",
+              "type": "other"
+            },
+            "20": {
+              "value": "rgba(255, 255, 255, 0.20)",
+              "description": "20%",
+              "type": "other"
+            },
+            "25": {
+              "value": "rgba(255, 255, 255, 0.25)",
+              "description": "25%",
+              "type": "other"
+            },
+            "30": {
+              "value": "rgba(255, 255, 255, 0.30)",
+              "description": "30%",
+              "type": "other"
+            },
+            "35": {
+              "value": "rgba(255, 255, 255, 0.35)",
+              "description": "35%",
+              "type": "other"
+            },
+            "40": {
+              "value": "rgba(255, 255, 255, 0.40)",
+              "description": "40%",
+              "type": "other"
+            },
+            "45": {
+              "value": "rgba(255, 255, 255, 0.45)",
+              "description": "45%",
+              "type": "other"
+            },
+            "50": {
+              "value": "rgba(255, 255, 255, 0.50)",
+              "description": "50%",
+              "type": "other"
+            },
+            "55": {
+              "value": "rgba(255, 255, 255, 0.55)",
+              "description": "55%",
+              "type": "other"
+            },
+            "60": {
+              "value": "rgba(255, 255, 255, 0.60)",
+              "description": "60%",
+              "type": "other"
+            },
+            "65": {
+              "value": "rgba(255, 255, 255, 0.65)",
+              "description": "65%",
+              "type": "other"
+            },
+            "70": {
+              "value": "rgba(255, 255, 255, 0.70)",
+              "description": "70%",
+              "type": "other"
+            },
+            "75": {
+              "value": "rgba(255, 255, 255, 0.75)",
+              "description": "75%",
+              "type": "other"
+            },
+            "80": {
+              "value": "rgba(255, 255, 255, 0.80)",
+              "description": "80%",
+              "type": "other"
+            },
+            "85": {
+              "value": "rgba(255, 255, 255, 0.85)",
+              "description": "85%",
+              "type": "other"
+            },
+            "90": {
+              "value": "rgba(255, 255, 255, 0.90)",
+              "description": "90%",
+              "type": "other"
+            },
+            "95": {
+              "value": "rgba(255, 255, 255, 0.95)",
+              "description": "95%",
+              "type": "other"
+            },
+            "100": {
+              "value": "rgba(255, 255, 255, 1.0)",
+              "description": "100%",
+              "type": "other"
+            }
+          },
+          "dark": {
+            "10": {
+              "value": "rgba(0, 0, 0, 0.10)",
+              "description": "10%",
+              "type": "other"
+            },
+            "15": {
+              "value": "rgba(0, 0, 0, 0.15)",
+              "description": "15%",
+              "type": "other"
+            },
+            "20": {
+              "value": "rgba(0, 0, 0, 0.20)",
+              "description": "20%",
+              "type": "other"
+            },
+            "25": {
+              "value": "rgba(0, 0, 0, 0.25)",
+              "description": "25%",
+              "type": "other"
+            },
+            "30": {
+              "value": "rgba(0, 0, 0, 0.30)",
+              "description": "30%",
+              "type": "other"
+            },
+            "35": {
+              "value": "rgba(0, 0, 0, 0.35)",
+              "description": "35%",
+              "type": "other"
+            },
+            "40": {
+              "value": "rgba(0, 0, 0, 0.40)",
+              "description": "40%",
+              "type": "other"
+            },
+            "45": {
+              "value": "rgba(0, 0, 0, 0.45)",
+              "description": "45%",
+              "type": "other"
+            },
+            "50": {
+              "value": "rgba(0, 0, 0, 0.50)",
+              "description": "50%",
+              "type": "other"
+            },
+            "55": {
+              "value": "rgba(0, 0, 0, 0.55)",
+              "description": "55%",
+              "type": "other"
+            },
+            "60": {
+              "value": "rgba(0, 0, 0, 0.60)",
+              "description": "60%",
+              "type": "other"
+            },
+            "65": {
+              "value": "rgba(0, 0, 0, 0.65)",
+              "description": "65%",
+              "type": "other"
+            },
+            "70": {
+              "value": "rgba(0, 0, 0, 0.70)",
+              "description": "70%",
+              "type": "other"
+            },
+            "75": {
+              "value": "rgba(0, 0, 0, 0.75)",
+              "description": "75%",
+              "type": "other"
+            },
+            "80": {
+              "value": "rgba(0, 0, 0, 0.80)",
+              "description": "80%",
+              "type": "other"
+            },
+            "85": {
+              "value": "rgba(0, 0, 0, 0.85)",
+              "description": "85%",
+              "type": "other"
+            },
+            "90": {
+              "value": "rgba(0, 0, 0, 0.90)",
+              "description": "90%",
+              "type": "other"
+            },
+            "95": {
+              "value": "rgba(0, 0, 0, 0.95)",
+              "description": "95%",
+              "type": "other"
+            },
+            "100": {
+              "value": "rgba(0, 0, 0, 1.0)",
+              "description": "100%",
+              "type": "other"
+            }
+          }
         }
       },
       "content": {
@@ -2486,6 +2917,64 @@
             "type": "other"
           }
         }
+      }
+    },
+    "size": {
+      "base": {
+        "value": "$scale.content.size.base",
+        "type": "sizing"
+      },
+      "icon": {
+        "sm": {
+          "value": "$size.base * 10",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "$size.base * 12",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "$size.base * 16",
+          "type": "sizing"
+        }
+      }
+    },
+    "opacity": {
+      "opacity-10": {
+        "value": "10%",
+        "type": "opacity"
+      },
+      "opacity-20": {
+        "value": "20%",
+        "type": "opacity"
+      },
+      "opacity-30": {
+        "value": "30%",
+        "type": "opacity"
+      },
+      "opacity-40": {
+        "value": "40%",
+        "type": "opacity"
+      },
+      "opacity-50": {
+        "value": "50%",
+        "type": "opacity"
+      },
+      "opacity-60": {
+        "value": "60%",
+        "type": "opacity"
+      },
+      "opacity-70": {
+        "value": "70%",
+        "type": "opacity"
+      },
+      "opacity-80": {
+        "value": "80%",
+        "type": "opacity"
+      },
+      "opacity-90": {
+        "value": "90%",
+        "type": "opacity"
       }
     }
   }
