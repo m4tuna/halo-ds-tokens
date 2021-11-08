@@ -165,13 +165,8 @@
             "type": "color"
           },
           "main-outlined": {
-            "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.contrast.light.100",
-            "type": "color"
-          },
-          "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "$colors.action.default.main-contained",
+            "value": "$scale.color.contrast.light.100",
             "type": "color"
           },
           "content-light": {
