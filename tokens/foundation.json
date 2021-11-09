@@ -2965,6 +2965,10 @@
         "type": "sizing"
       },
       "icon": {
+        "xs": {
+          "value": "$size.base * 8",
+          "type": "sizing"
+        },
         "sm": {
           "value": "$size.base * 10",
           "type": "sizing"
