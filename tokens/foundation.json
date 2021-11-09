@@ -2740,6 +2740,11 @@
         "contrast": {
           "light": {
             "10": {
+              "value": "rgba(255, 255, 255, 0.05)",
+              "description": "5%",
+              "type": "other"
+            },
+            "10": {
               "value": "rgba(255, 255, 255, 0.10)",
               "description": "10%",
               "type": "other"
@@ -2836,6 +2841,11 @@
             }
           },
           "dark": {
+            "5": {
+              "value": "rgba(0, 0, 0, 0.05)",
+              "description": "5%",
+              "type": "other"
+            },
             "10": {
               "value": "rgba(0, 0, 0, 0.10)",
               "description": "10%",
