@@ -2739,7 +2739,7 @@
         },
         "contrast": {
           "light": {
-            "10": {
+            "5": {
               "value": "rgba(255, 255, 255, 0.05)",
               "description": "5%",
               "type": "other"
