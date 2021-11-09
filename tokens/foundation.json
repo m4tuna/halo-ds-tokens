@@ -704,7 +704,7 @@
           "type": "color"
         },
         "input-background": {
-          "value": "$scale.color.contrast.dark.10",
+          "value": "$scale.color.contrast.dark.5",
           "description": "Fill background for standard variant Text Field & Select",
           "type": "color"
         },
