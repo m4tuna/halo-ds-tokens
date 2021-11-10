@@ -272,7 +272,7 @@
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "$scale.color.contrast.dark.10",
+            "value": "$scale.color.contrast.dark.5",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
