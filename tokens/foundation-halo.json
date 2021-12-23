@@ -549,7 +549,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "$scale.color.blue.700",
+            "value": "$scale.color.red.700",
             "type": "color"
           },
           "secondary-light": {
