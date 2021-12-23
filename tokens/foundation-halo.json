@@ -5,12 +5,12 @@
         "primary": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "$scale.color.red.600",
+            "value": "$scale.color.red.500",
             "type": "color"
           },
           "main-outlined": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.red.600",
+            "value": "$scale.color.red.500",
             "type": "color"
           },
           "content-light": {
@@ -25,12 +25,12 @@
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.red.700",
+            "value": "$scale.color.red.600",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.red.800",
+            "value": "$scale.color.red.700",
             "type": "color"
           },
           "focus": {
@@ -44,12 +44,12 @@
             "type": "color"
           },
           "outlined-hover-background": {
-            "value": "$scale.color.red.700",
+            "value": "$scale.color.red.600",
             "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
             "type": "color"
           },
           "outlined-active-background": {
-            "value": "$scale.color.red.800",
+            "value": "$scale.color.red.700",
             "description": "Background fill color for outlined actions in active state (Button)",
             "type": "color"
           },
@@ -82,12 +82,12 @@
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.red.700",
+            "value": "$scale.color.red.600",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.red.800",
+            "value": "$scale.color.red.700",
             "type": "color"
           },
           "focus": {
