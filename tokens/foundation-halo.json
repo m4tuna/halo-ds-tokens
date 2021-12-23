@@ -887,7 +887,7 @@
           "1": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.desktop.h1",
               "fontSize": "$fontSizes.desktop.h1",
               "letterSpacing": "$letterSpacing.decrease-10",
@@ -899,7 +899,7 @@
           "2": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.desktop.h2",
               "fontSize": "$fontSizes.desktop.h2",
               "letterSpacing": "$letterSpacing.none",
@@ -911,7 +911,7 @@
           "3": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.desktop.h3",
               "fontSize": "$fontSizes.desktop.h3",
               "letterSpacing": "$letterSpacing.none",
@@ -1083,7 +1083,7 @@
           "1": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.mobile.h1",
               "fontSize": "$fontSizes.mobile.h1",
               "letterSpacing": "$letterSpacing.none",
@@ -1095,7 +1095,7 @@
           "2": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.mobile.h2",
               "fontSize": "$fontSizes.mobile.h2",
               "letterSpacing": "{letterSpacing.none}",
@@ -1107,7 +1107,7 @@
           "3": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.mobile.h3",
               "fontSize": "$fontSizes.mobile.h3",
               "letterSpacing": "$letterSpacing.increase-5",
