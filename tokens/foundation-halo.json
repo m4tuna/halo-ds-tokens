@@ -1395,11 +1395,11 @@
       },
       "fontFamilies": {
         "heading": {
-          "value": "MMC Display",
+          "value": "Gotham",
           "type": "fontFamilies"
         },
         "body": {
-          "value": "Noto Sans",
+          "value": "Inter",
           "type": "fontFamilies"
         }
       },
