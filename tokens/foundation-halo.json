@@ -1353,11 +1353,13 @@
           "header": {
             "value": {
               "fontFamily": "$fontFamilies.body",
-              "fontWeight": "$fontWeights.500",
+              "fontWeight": "$fontWeights.600",
               "lineHeight": "$lineHeights.desktop.body2",
               "fontSize": "$fontSizes.desktop.body3",
               "letterSpacing": "$letterSpacing.increase-5",
-              "paragraphSpacing": "$paragraphSpacing.desktop.body2"
+              "paragraphSpacing": "$paragraphSpacing.desktop.body2",
+              "textDecoration": "none",
+              "textCase": "none"
             },
             "description": "Table Header",
             "type": "typography"
