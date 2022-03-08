@@ -510,77 +510,87 @@
         "default": {
           "main-dark": {
             "value": "$scale.color.contrast.dark.85",
-            "description": "Text primary",
+            "description": "Text main dark",
             "type": "color"
           },
           "main-light": {
             "value": "$scale.color.contrast.light.100",
-            "description": "Text secondary",
+            "description": "Text main light",
             "type": "color"
           },
           "secondary-dark": {
             "value": "$scale.color.contrast.dark.65",
-            "description": "Text secondary",
+            "description": "Text secondary dark (support)",
             "type": "color"
           },
           "secondary-light": {
             "value": "$scale.color.contrast.light.65",
-            "description": "Text secondary",
+            "description": "Text secondary light (support)",
             "type": "color"
           },
           "disabled-dark": {
             "value": "$scale.color.contrast.dark.40",
-            "description": "Text disabled",
+            "description": "Text disabled dark",
             "type": "color"
           },
           "disabled-light": {
             "value": "$scale.color.contrast.light.40",
-            "description": "Text secondary",
+            "description": "Text disabled light",
             "type": "color"
           }
         },
         "primary": {
           "main": {
             "value": "$scale.color.blue.800",
-            "type": "color"
+            "type": "color",
+            "description": "Text primary main "
           },
           "main-light": {
             "value": "$scale.color.blue.200",
-            "type": "color"
+            "type": "color",
+            "description": "Text primary main light"
           },
           "secondary": {
             "value": "$scale.color.blue.700",
-            "type": "color"
+            "type": "color",
+            "description": "Text primary secondary"
           },
           "secondary-light": {
             "value": "$scale.color.blue.500",
-            "type": "color"
+            "type": "color",
+            "description": "Text primary secondary light"
           },
           "disabled": {
             "value": "rgba($colors.text.primary.main, 0.4)",
-            "type": "color"
+            "type": "color",
+            "description": "Text primary disabled"
           }
         },
         "secondary": {
           "main": {
             "value": "$scale.color.pink.800",
-            "type": "color"
+            "type": "color",
+            "description": "Text secondary main"
           },
           "main-light": {
             "value": "$scale.color.pink.200",
-            "type": "color"
+            "type": "color",
+            "description": "Text secondary main light"
           },
           "secondary": {
             "value": "$scale.color.pink.700",
-            "type": "color"
+            "type": "color",
+            "description": "Text secondary secondary"
           },
           "secondary-light": {
             "value": "$scale.color.pink.500",
-            "type": "color"
+            "type": "color",
+            "description": "Text secondary secondary light"
           },
           "disabled": {
             "value": "rgba($colors.text.secondary.main, 0.4)",
-            "type": "color"
+            "type": "color",
+            "description": "Text secondary disabled"
           }
         }
       },
@@ -603,45 +613,46 @@
           },
           "modal-overlay": {
             "value": "$scale.color.contrast.dark.50",
-            "description": "Backdrop color",
+            "description": "Backdrop color when modal is active",
             "type": "color"
           },
           "divider": {
             "value": "$scale.color.contrast.dark.10",
-            "type": "color"
+            "type": "color",
+            "description": "Line color for the divider"
           }
         },
         "primary": {
           "main": {
             "value": "$scale.color.blue.700",
-            "description": "700",
+            "description": "Background main",
             "type": "color"
           },
           "dark": {
             "value": "$scale.color.blue.800",
-            "description": "800",
+            "description": "Background dark",
             "type": "color"
           },
           "light": {
             "value": "$scale.color.blue.100",
-            "description": "100",
+            "description": "Background light",
             "type": "color"
           }
         },
         "secondary": {
           "main": {
             "value": "$scale.color.pink.700",
-            "description": "700",
+            "description": "Background main",
             "type": "color"
           },
           "dark": {
             "value": "$scale.color.pink.800",
-            "description": "800",
+            "description": "Background dark",
             "type": "color"
           },
           "light": {
             "value": "$scale.color.pink.100",
-            "description": "100",
+            "description": "Background light",
             "type": "color"
           }
         }
@@ -670,12 +681,12 @@
           },
           "dark": {
             "value": "$scale.color.blue.800",
-            "description": "800",
+            "description": "Background dark",
             "type": "color"
           },
           "light": {
             "value": "$scale.color.blue.100",
-            "description": "100",
+            "description": "Background light",
             "type": "color"
           }
         },
@@ -845,23 +856,28 @@
       "gradient": {
         "blue-green": {
           "value": "linear-gradient(145deg, rgba(0,172,85,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "Gradient blue to green"
         },
         "blue-teal": {
           "value": "linear-gradient(145deg, rgba(0,119,160,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "Gradient blue to teal"
         },
         "blue-purple": {
           "value": "linear-gradient(145deg, rgba(130,70,175,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "Gradient blue to purple"
         },
         "blue-pink": {
           "value": "linear-gradient(145deg, rgba(238,61,139,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "Gradient blue to pink"
         },
         "blue-turquoise": {
           "value": "linear-gradient(145deg, rgba(0,150,143,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "Gradient blue to turquoise"
         }
       }
     },
