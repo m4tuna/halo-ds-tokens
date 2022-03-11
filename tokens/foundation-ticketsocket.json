@@ -1411,11 +1411,11 @@
     },
     "fontFamilies": {
       "heading": {
-        "value": "MMC Display",
+        "value": "Sofia Pro",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Inter",
+        "value": "Sofia Pro",
         "type": "fontFamilies"
       }
     },
@@ -1583,7 +1583,7 @@
         "type": "fontWeights"
       },
       "600": {
-        "value": "SemiBold",
+        "value": "Semi Bold",
         "type": "fontWeights"
       },
       "700": {
