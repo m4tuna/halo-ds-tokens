@@ -1563,7 +1563,7 @@
     },
     "fontWeights": {
       "100": {
-        "value": "ExtraLight",
+        "value": "Extra Light",
         "type": "fontWeights"
       },
       "200": {
@@ -1591,7 +1591,7 @@
         "type": "fontWeights"
       },
       "800": {
-        "value": "ExtraBold",
+        "value": "Extra Bold",
         "type": "fontWeights"
       },
       "900": {
