@@ -2076,6 +2076,22 @@
         "value": "$spacing.base * 12",
         "type": "spacing"
       },
+      "vertical-13": {
+        "value": "$spacing.base * 13",
+        "type": "spacing"
+      },
+      "vertical-14": {
+        "value": "$spacing.base * 14",
+        "type": "spacing"
+      },
+      "vertical-15": {
+        "value": "$spacing.base * 15",
+        "type": "spacing"
+      },
+      "vertical-16": {
+        "value": "$spacing.base * 16",
+        "type": "spacing"
+      },
       "horizontal-2": {
         "value": "$spacing.base * 2",
         "type": "spacing"
@@ -2118,6 +2134,22 @@
       },
       "horizontal-12": {
         "value": "$spacing.base * 12",
+        "type": "spacing"
+      },
+      "horizontal-13": {
+        "value": "$spacing.base * 13",
+        "type": "spacing"
+      },
+      "horizontal-14": {
+        "value": "$spacing.base * 14",
+        "type": "spacing"
+      },
+      "horizontal-15": {
+        "value": "$spacing.base * 15",
+        "type": "spacing"
+      },
+      "horizontal-16": {
+        "value": "$spacing.base * 16",
         "type": "spacing"
       },
       "none": {
