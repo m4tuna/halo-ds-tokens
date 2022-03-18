@@ -2187,27 +2187,27 @@
           },
           "500": {
             "value": "rgb(0, 157, 224)",
-            "description": "500 AA large text only",
+            "description": "500",
             "type": "color"
           },
           "600": {
             "value": "rgb(0, 101, 172)",
-            "description": "600 AA",
+            "description": "600",
             "type": "color"
           },
           "700": {
             "value": "rgb(0, 44, 119)",
-            "description": "700 AAA",
+            "description": "700",
             "type": "color"
           },
           "800": {
             "value": "rgb(0, 31, 82)",
-            "description": "800 AAA",
+            "description": "800",
             "type": "color"
           },
           "900": {
             "value": "rgb(0, 21, 56)",
-            "description": "900 AAA",
+            "description": "900",
             "type": "color"
           }
         },
@@ -2234,32 +2234,32 @@
           },
           "400": {
             "value": "rgb(78, 168, 194)",
-            "description": "400 AAA dark text only",
+            "description": "400 dark text only",
             "type": "color"
           },
           "500": {
             "value": "rgb(0, 119, 160)",
-            "description": "500 AA",
+            "description": "500",
             "type": "color"
           },
           "600": {
             "value": "rgb(0, 98, 134)",
-            "description": "600 AA",
+            "description": "600",
             "type": "color"
           },
           "700": {
             "value": "rgb(0, 76, 108)",
-            "description": "700 AAA",
+            "description": "700",
             "type": "color"
           },
           "800": {
             "value": "rgb(0, 54, 77)",
-            "description": "800 AAA",
+            "description": "800",
             "type": "color"
           },
           "900": {
             "value": "rgb(0, 32, 46)",
-            "description": "900 AAA",
+            "description": "900",
             "type": "color"
           }
         },
@@ -2286,32 +2286,32 @@
           },
           "400": {
             "value": "rgb(76, 185, 175)",
-            "description": "400 AAA dark text only",
+            "description": "400 dark text only",
             "type": "color"
           },
           "500": {
             "value": "rgb(0, 150, 143)",
-            "description": "500 AA large text only",
+            "description": "500",
             "type": "color"
           },
           "600": {
             "value": "rgb(0, 122, 118)",
-            "description": "600 AA",
+            "description": "600",
             "type": "color"
           },
           "700": {
             "value": "rgb(0, 94, 93)",
-            "description": "700 AAA",
+            "description": "700",
             "type": "color"
           },
           "800": {
             "value": "rgb(0, 65, 64)",
-            "description": "800 AAA",
+            "description": "800",
             "type": "color"
           },
           "900": {
             "value": "rgb(0, 36, 35)",
-            "description": "900 AAA",
+            "description": "900",
             "type": "color"
           }
         },
@@ -2338,32 +2338,32 @@
           },
           "400": {
             "value": "rgb(87, 198, 122)",
-            "description": "400 AAA dark text only",
+            "description": "400 dark text only",
             "type": "color"
           },
           "500": {
             "value": "rgb(0, 172, 65)",
-            "description": "500 AA large text only",
+            "description": "500",
             "type": "color"
           },
           "600": {
             "value": "rgb(20, 133, 61)",
-            "description": "600 AA",
+            "description": "600",
             "type": "color"
           },
           "700": {
             "value": "rgb(39, 93, 56)",
-            "description": "700 AAA",
+            "description": "700",
             "type": "color"
           },
           "800": {
             "value": "rgb(27, 65, 39)",
-            "description": "800 AAA",
+            "description": "800",
             "type": "color"
           },
           "900": {
             "value": "rgb(15, 36, 21)",
-            "description": "900 AAA",
+            "description": "900",
             "type": "color"
           }
         },
@@ -2390,32 +2390,32 @@
           },
           "400": {
             "value": "rgb(243, 117, 165)",
-            "description": "400 AAA dark text only",
+            "description": "400 dark text only",
             "type": "color"
           },
           "500": {
             "value": "rgb(238, 61, 139)",
-            "description": "500 AA large text only",
+            "description": "500",
             "type": "color"
           },
           "600": {
             "value": "rgb(208, 32, 115)",
-            "description": "600 AA",
+            "description": "600",
             "type": "color"
           },
           "700": {
             "value": "rgb(178, 2, 91)",
-            "description": "700 AA",
+            "description": "700",
             "type": "color"
           },
           "800": {
             "value": "rgb(120, 2, 61)",
-            "description": "800 AAA",
+            "description": "800",
             "type": "color"
           },
           "900": {
             "value": "rgb(61, 1, 31)",
-            "description": "900 AAA",
+            "description": "900",
             "type": "color"
           }
         },
@@ -2442,32 +2442,32 @@
           },
           "400": {
             "value": "rgb(167, 125, 200)",
-            "description": "400 AA large text only",
+            "description": "400",
             "type": "color"
           },
           "500": {
             "value": "rgb(130, 70, 175)",
-            "description": "500 AA",
+            "description": "500",
             "type": "color"
           },
           "600": {
             "value": "rgb(100, 60, 153)",
-            "description": "600 AAA",
+            "description": "600",
             "type": "color"
           },
           "700": {
             "value": "rgb(70, 50, 130)",
-            "description": "700 AA",
+            "description": "700",
             "type": "color"
           },
           "800": {
             "value": "rgb(48, 34, 89)",
-            "description": "800 AAA",
+            "description": "800",
             "type": "color"
           },
           "900": {
             "value": "rgb(26, 18, 48)",
-            "description": "900 AAA",
+            "description": "900",
             "type": "color"
           }
         },
@@ -2494,32 +2494,32 @@
           },
           "400": {
             "value": "rgb(162, 183, 205)",
-            "description": "400 AAA dark text only",
+            "description": "400 dark text only",
             "type": "color"
           },
           "500": {
             "value": "rgb(128, 150, 178)",
-            "description": "500 AA large text only",
+            "description": "500",
             "type": "color"
           },
           "600": {
             "value": "rgb(98, 119, 152)",
-            "description": "600 AAA",
+            "description": "600",
             "type": "color"
           },
           "700": {
             "value": "rgb(78, 98, 135)",
-            "description": "700 AA",
+            "description": "700",
             "type": "color"
           },
           "800": {
             "value": "rgb(53, 66, 91)",
-            "description": "800 AAA",
+            "description": "800",
             "type": "color"
           },
           "900": {
             "value": "rgb(27, 34, 47)",
-            "description": "900 AAA",
+            "description": "900",
             "type": "color"
           }
         },
@@ -2546,32 +2546,32 @@
           },
           "400": {
             "value": "rgb(179, 179, 179)",
-            "description": "400 AAA dark text only",
+            "description": "400 dark text only",
             "type": "color"
           },
           "500": {
             "value": "rgb(148, 148, 148)",
-            "description": "500 AA large text only",
+            "description": "500",
             "type": "color"
           },
           "600": {
             "value": "rgb(118, 118, 118)",
-            "description": "600 AAA",
+            "description": "600",
             "type": "color"
           },
           "700": {
             "value": "rgb(86, 86, 86)",
-            "description": "700 AA",
+            "description": "700",
             "type": "color"
           },
           "800": {
             "value": "rgb(59, 59, 59)",
-            "description": "800 AAA",
+            "description": "800",
             "type": "color"
           },
           "900": {
             "value": "rgb(32, 32, 32)",
-            "description": "900 AAA",
+            "description": "900",
             "type": "color"
           }
         },
@@ -2599,7 +2599,7 @@
             },
             "400": {
               "value": "rgb(44, 110, 242)",
-              "description": "400 AAA dark text only",
+              "description": "400 dark text only",
               "type": "color"
             },
             "500": {
@@ -2755,7 +2755,7 @@
             },
             "400": {
               "value": "rgb(255, 97, 93)",
-              "description": "400 AAA dark text only",
+              "description": "400 dark text only",
               "type": "color"
             },
             "500": {
