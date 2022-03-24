@@ -661,32 +661,34 @@
         "default": {
           "main": {
             "value": "$scale.color.contrast.light.100",
+            "description": "Surface main",
             "type": "color"
           },
           "dark": {
             "value": "$scale.color.gray.200",
+            "description": "Surface dark",
             "type": "color"
           },
           "light": {
             "value": "$scale.color.gray.50",
-            "description": "50",
+            "description": "Surface light",
             "type": "color"
           }
         },
         "primary": {
           "main": {
             "value": "$scale.color.blue.700",
-            "description": "700",
+            "description": "Surface main",
             "type": "color"
           },
           "dark": {
             "value": "$scale.color.blue.800",
-            "description": "Background dark",
+            "description": "Surface dark",
             "type": "color"
           },
           "light": {
             "value": "$scale.color.blue.100",
-            "description": "Background light",
+            "description": "Surface light",
             "type": "color"
           }
         },
