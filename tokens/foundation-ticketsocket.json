@@ -693,17 +693,17 @@
         "secondary": {
           "main": {
             "value": "$scale.color.pink.700",
-            "description": "700",
+            "description": "Surface main",
             "type": "color"
           },
           "dark": {
             "value": "$scale.color.pink.800",
-            "description": "800",
+            "description": "Surface dark",
             "type": "color"
           },
           "light": {
             "value": "$scale.color.pink.100",
-            "description": "100",
+            "description": "Surface light",
             "type": "color"
           }
         }
