@@ -850,7 +850,7 @@
       },
       "reaction": {
         "rating-active": {
-          "value": "#ffc043",
+          "value": "$scale.color.alert.warning.400",
           "description": "Active state color for Rating component",
           "type": "color"
         }
