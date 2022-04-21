@@ -1,3 +1,3 @@
-# halo-ds-tokens
+# halo theme
 
-Halo Design System's core token set.
+This repository contains Figma Token-based theme data for use with the Halo Design Foundation UI Kit.
