@@ -710,7 +710,7 @@
       },
       "form": {
         "input-border": {
-          "value": "$scale.color.contrast.dark.25",
+          "value": "$scale.color.gray.400",
           "description": "Border style for outlined variant components in resting state (Text Field, Select, Chips, etc)",
           "type": "color"
         },
