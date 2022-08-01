@@ -9,7 +9,7 @@
           },
           "main-outlined": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$colors.action.primary.main-contained",
+            "value": "$action.primary.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -19,7 +19,7 @@
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$colors.action.primary.main-contained",
+            "value": "$action.primary.main-contained",
             "type": "color"
           },
           "contained-hover-background": {
@@ -38,7 +38,7 @@
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba($colors.action.primary.main-contained, 0.4)",
+            "value": "rgba($action.primary.main-contained, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -53,7 +53,7 @@
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "rgba($colors.action.primary.main-contained, 0.1)",
+            "value": "rgba($action.primary.main-contained, 0.1)",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
@@ -76,7 +76,7 @@
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$colors.action.primary.main-contained",
+            "value": "$action.primary.main-contained",
             "type": "color"
           },
           "contained-hover-background": {
@@ -95,7 +95,7 @@
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba($colors.action.primary.main-contained,0.4)",
+            "value": "rgba($action.primary.main-contained,0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -147,7 +147,7 @@
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba($colors.action.secondary.main-contained, 0.4)",
+            "value": "rgba($action.secondary.main-contained, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -162,7 +162,7 @@
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "rgba($colors.action.secondary.main-contained, 0.1)",
+            "value": "rgba($action.secondary.main-contained, 0.1)",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
@@ -204,7 +204,7 @@
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba($colors.action.secondary.main-contained, 0.4)",
+            "value": "rgba($action.secondary.main-contained, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -256,7 +256,7 @@
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba($colors.action.default.main-contained, 0.4)",
+            "value": "rgba($action.default.main-contained, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -271,7 +271,7 @@
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "rgba($colors.action.default.main-contained, 0.1)",
+            "value": "rgba($action.default.main-contained, 0.1)",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
@@ -284,7 +284,7 @@
           },
           "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "$colors.action.info.main-contained",
+            "value": "$action.info.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -313,7 +313,7 @@
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba($colors.action.info.main-contained, 0.4)",
+            "value": "rgba($action.info.main-contained, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -328,7 +328,7 @@
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "rgba($colors.action.info.main-contained, 0.1)",
+            "value": "rgba($action.info.main-contained, 0.1)",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
@@ -341,7 +341,7 @@
           },
           "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "$colors.action.success.main-contained",
+            "value": "$action.success.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -370,7 +370,7 @@
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba($colors.action.success.main-contained, 0.4)",
+            "value": "rgba($action.success.main-contained, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -385,7 +385,7 @@
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "rgba($colors.action.success.main-contained, 0.1)",
+            "value": "rgba($action.success.main-contained, 0.1)",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
@@ -398,7 +398,7 @@
           },
           "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "$colors.action.warning.main-contained",
+            "value": "$action.warning.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -427,7 +427,7 @@
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba({colors.action.warning.main-contained}, 0.4)",
+            "value": "rgba({action.warning.main-contained}, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -442,7 +442,7 @@
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "rgba($colors.action.warning.main-contained, 0.1)",
+            "value": "rgba($action.warning.main-contained, 0.1)",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
@@ -455,7 +455,7 @@
           },
           "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "$colors.action.error.main-contained",
+            "value": "$action.error.main-contained",
             "type": "color"
           },
           "content-light": {
@@ -484,7 +484,7 @@
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba($colors.action.error.main-contained, 0.4)",
+            "value": "rgba($action.error.main-contained, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -499,7 +499,7 @@
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "rgba($colors.action.error.main-contained, 0.1)",
+            "value": "rgba($action.error.main-contained, 0.1)",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
