@@ -14,7 +14,7 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
@@ -61,17 +61,17 @@
         "primary-reverse": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "main-outlined": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
@@ -100,12 +100,12 @@
             "type": "color"
           },
           "outlined-hover-background": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
             "type": "color"
           },
           "outlined-active-background": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "description": "Background fill color for outlined actions in active state (Button)",
             "type": "color"
           }
@@ -123,7 +123,7 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
@@ -170,17 +170,17 @@
         "secondary-reverse": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
@@ -209,12 +209,12 @@
             "type": "color"
           },
           "outlined-hover-background": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
             "type": "color"
           },
           "outlined-active-background": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "description": "Background fill color for outlined actions in active state (Button)",
             "type": "color"
           }
@@ -232,7 +232,7 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
@@ -289,12 +289,12 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "type": "color"
           },
           "contained-hover-background": {
@@ -346,12 +346,12 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "type": "color"
           },
           "contained-hover-background": {
@@ -403,12 +403,12 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "type": "color"
           },
           "contained-hover-background": {
@@ -460,12 +460,12 @@
           },
           "content-light": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "type": "color"
           },
           "contained-hover-background": {
@@ -508,32 +508,32 @@
     "text": {
         "default": {
           "main-dark": {
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "description": "Text main dark",
             "type": "color"
           },
           "main-light": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "description": "Text main light",
             "type": "color"
           },
           "secondary-dark": {
-            "value": "$contrast.dark.65",
+            "value": "$scale.contrast.dark.65",
             "description": "Text secondary dark (support)",
             "type": "color"
           },
           "secondary-light": {
-            "value": "$contrast.light.65",
+            "value": "$scale.contrast.light.65",
             "description": "Text secondary light (support)",
             "type": "color"
           },
           "disabled-dark": {
-            "value": "$contrast.dark.40",
+            "value": "$scale.contrast.dark.40",
             "description": "Text disabled dark",
             "type": "color"
           },
           "disabled-light": {
-            "value": "$contrast.light.40",
+            "value": "$scale.contrast.light.40",
             "description": "Text disabled light",
             "type": "color"
           }
@@ -607,16 +607,16 @@
           },
           "light": {
             "description": "Background light",
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "modal-overlay": {
-            "value": "$contrast.dark.50",
+            "value": "$scale.contrast.dark.50",
             "description": "Backdrop color when modal is active",
             "type": "color"
           },
           "divider": {
-            "value": "$contrast.dark.10",
+            "value": "$scale.contrast.dark.10",
             "type": "color",
             "description": "Line color for the divider"
           }
@@ -659,7 +659,7 @@
     "surface": {
         "default": {
           "main": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "description": "Surface main",
             "type": "color"
           },
@@ -711,12 +711,12 @@
       },
     "form": {
         "input-border": {
-          "value": "$contrast.dark.25",
+          "value": "$scale.contrast.dark.25",
           "description": "Border style for outlined variant components in resting state (Text Field, Select, Chips, etc)",
           "type": "color"
         },
         "input-background": {
-          "value": "$contrast.dark.5",
+          "value": "$scale.contrast.dark.5",
           "description": "Fill background for standard variant Text Field & Select",
           "type": "color"
         },
@@ -750,11 +750,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "type": "color"
           }
         },
@@ -772,11 +772,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "type": "color"
           }
         },
@@ -794,11 +794,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "type": "color"
           }
         },
@@ -816,11 +816,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "type": "color"
           }
         },
@@ -838,11 +838,11 @@
             "type": "color"
           },
           "content-light": {
-            "value": "$contrast.light.100",
+            "value": "$scale.contrast.light.100",
             "type": "color"
           },
           "content-dark": {
-            "value": "$contrast.dark.85",
+            "value": "$scale.contrast.dark.85",
             "type": "color"
           }
         }
@@ -1980,7 +1980,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "$contrast.dark"
+            "color": "$scale.contrast.dark"
           },
           "type": "boxShadow"
         },
