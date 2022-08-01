@@ -1997,7 +1997,7 @@
         "elevated": {
           "value": {
             "x": "0",
-            "y": "$content.size.base * 4", asdfasdf
+            "y": "$content.size.base * 4",
             "blur": "$content.size.base * 4",
             "spread": "0",
             "color": "rgba($scale.contrast.dark, 0.16)"
