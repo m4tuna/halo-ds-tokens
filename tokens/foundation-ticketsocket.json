@@ -2236,7 +2236,7 @@
           },
           "400": {
             "value": "rgb(78, 168, 194)",
-            "description": "400 dark text only",
+            "description": "400",
             "type": "color"
           },
           "500": {
@@ -2288,7 +2288,7 @@
           },
           "400": {
             "value": "rgb(76, 185, 175)",
-            "description": "400 dark text only",
+            "description": "400",
             "type": "color"
           },
           "500": {
@@ -2340,7 +2340,7 @@
           },
           "400": {
             "value": "rgb(87, 198, 122)",
-            "description": "400 dark text only",
+            "description": "400",
             "type": "color"
           },
           "500": {
@@ -2392,7 +2392,7 @@
           },
           "400": {
             "value": "rgb(226, 56, 116)",
-            "description": "400 dark text only",
+            "description": "400",
             "type": "color"
           },
           "500": {
@@ -2496,7 +2496,7 @@
           },
           "400": {
             "value": "rgb(162, 183, 205)",
-            "description": "400 dark text only",
+            "description": "400",
             "type": "color"
           },
           "500": {
@@ -2548,7 +2548,7 @@
           },
           "400": {
             "value": "rgb(179, 179, 179)",
-            "description": "400 dark text only",
+            "description": "400",
             "type": "color"
           },
           "500": {
@@ -2601,7 +2601,7 @@
             },
             "400": {
               "value": "rgb(44, 110, 242)",
-              "description": "400 dark text only",
+              "description": "400",
               "type": "color"
             },
             "500": {
@@ -2757,7 +2757,7 @@
             },
             "400": {
               "value": "rgb(255, 97, 93)",
-              "description": "400 dark text only",
+              "description": "400",
               "type": "color"
             },
             "500": {
