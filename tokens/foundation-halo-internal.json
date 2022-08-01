@@ -5,7 +5,7 @@
         "primary": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "$scale.color.blue.700",
+            "value": "$scale.color.blue.900",
             "type": "color"
           },
           "main-outlined": {
@@ -25,17 +25,17 @@
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.blue.600",
+            "value": "$scale.color.blue.800",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.blue.500",
+            "value": "$scale.color.blue.700",
             "type": "color"
           },
           "focus": {
             "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-            "value": "$scale.color.blue.200",
+            "value": "$scale.color.blue.400",
             "type": "color"
           },
           "contained-disabled-background": {
@@ -44,12 +44,12 @@
             "type": "color"
           },
           "outlined-hover-background": {
-            "value": "$scale.color.blue.600",
+            "value": "$scale.color.blue.800",
             "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
             "type": "color"
           },
           "outlined-active-background": {
-            "value": "$scale.color.blue.500",
+            "value": "$scale.color.blue.700",
             "description": "Background fill color for outlined actions in active state (Button)",
             "type": "color"
           },
@@ -82,17 +82,17 @@
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.blue.600",
+            "value": "$scale.color.blue.800",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.blue.500",
+            "value": "$scale.color.blue.700",
             "type": "color"
           },
           "focus": {
             "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-            "value": "$scale.color.blue.200",
+            "value": "$scale.color.blue.400",
             "type": "color"
           },
           "contained-disabled-background": {
@@ -114,12 +114,12 @@
         "secondary": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.pink.400",
             "type": "color"
           },
           "main-outlined": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.pink.400",
             "type": "color"
           },
           "content-light": {
@@ -129,22 +129,22 @@
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.pink.400",
             "type": "color"
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.pink.600",
+            "value": "$scale.color.pink.300",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.pink.500",
+            "value": "$scale.color.pink.200",
             "type": "color"
           },
           "focus": {
             "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-            "value": "$scale.color.pink.200",
+            "value": "$scale.color.pink.100",
             "type": "color"
           },
           "contained-disabled-background": {
@@ -153,12 +153,12 @@
             "type": "color"
           },
           "outlined-hover-background": {
-            "value": "$scale.color.pink.600",
+            "value": "$scale.color.pink.300",
             "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
             "type": "color"
           },
           "outlined-active-background": {
-            "value": "$scale.color.pink.500",
+            "value": "$scale.color.pink.200",
             "description": "Background fill color for outlined actions in active state (Button)",
             "type": "color"
           },
@@ -186,22 +186,22 @@
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.pink.400",
             "type": "color"
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.pink.600",
+            "value": "$scale.color.pink.300",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.pink.500",
+            "value": "$scale.color.pink.200",
             "type": "color"
           },
           "focus": {
             "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-            "value": "$scale.color.pink.200",
+            "value": "$scale.color.pink.100",
             "type": "color"
           },
           "contained-disabled-background": {
