@@ -560,7 +560,7 @@
             "description": "Text primary secondary light"
           },
           "disabled": {
-            "value": "rgba($colors.text.primary.main, 0.4)",
+            "value": "rgba($text.primary.main, 0.4)",
             "type": "color",
             "description": "Text primary disabled"
           }
@@ -587,7 +587,7 @@
             "description": "Text secondary secondary light"
           },
           "disabled": {
-            "value": "rgba($colors.text.secondary.main, 0.4)",
+            "value": "rgba($text.secondary.main, 0.4)",
             "type": "color",
             "description": "Text secondary disabled"
           }
@@ -721,15 +721,15 @@
           "type": "color"
         },
         "input-label": {
-          "value": "$colors.text.default.secondary-dark",
+          "value": "$text.default.secondary-dark",
           "type": "color"
         },
         "input-text": {
-          "value": "$colors.text.default.main-dark",
+          "value": "$text.default.main-dark",
           "type": "color"
         },
         "helper-text": {
-          "value": "$colors.text.default.secondary-dark",
+          "value": "$text.default.secondary-dark",
           "type": "color"
         }
       },
