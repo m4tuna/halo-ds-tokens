@@ -4,7 +4,7 @@
       "action": {
         "primary": {
           "main-contained": {
-            "description": "Main fill background color used for components in rest state (Buttons, form controls)",
+            "description": "Main fill background color used for components in rest state (Buttons, form controls, etc)",
             "value": "$scale.color.blue.700",
             "type": "color"
           },
