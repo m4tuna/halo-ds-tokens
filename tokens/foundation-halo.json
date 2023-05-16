@@ -5,12 +5,12 @@
         "primary": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "rgba(11, 65, 173, 1.0)",
+            "value": "$scale.color.red.500",
             "type": "color"
           },
           "main-outlined": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "rgba(11, 65, 173, 1.0)",
+            "value": "$scale.color.red.500",
             "type": "color"
           },
           "content-light": {
@@ -25,36 +25,36 @@
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "rgba(14, 83, 221, 1.0)",
+            "value": "$scale.color.red.600",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "rgba(44, 110, 242, 1.0)",
+            "value": "$scale.color.red.700",
             "type": "color"
           },
           "focus": {
             "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-            "value": "$scale.color.blue.200",
+            "value": "$scale.color.red.200",
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba(11, 65, 173, 0.4)",
+            "value": "rgba($colors.action.primary.main-contained, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
           "outlined-hover-background": {
-            "value": "rgba(14, 83, 221, 1.0)",
+            "value": "$scale.color.red.600",
             "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
             "type": "color"
           },
           "outlined-active-background": {
-            "value": "rgba(44, 110, 242, 1.0)",
+            "value": "$scale.color.red.700",
             "description": "Background fill color for outlined actions in active state (Button)",
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "rgba(11, 65, 173, 0.1)",
+            "value": "rgba($colors.action.primary.main-contained, 0.1)",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
@@ -82,21 +82,21 @@
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "rgba(14, 83, 221, 1.0)",
+            "value": "$scale.color.red.600",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "rgba(44, 110, 242, 1.0)",
+            "value": "$scale.color.red.700",
             "type": "color"
           },
           "focus": {
             "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-            "value": "$scale.color.blue.200",
+            "value": "$scale.color.red.200",
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba(11, 65, 173, 0.4)",
+            "value": "rgba($colors.action.primary-reverse.main-contained, 0.4)",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
@@ -114,12 +114,12 @@
         "secondary": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.gray.900",
             "type": "color"
           },
           "main-outlined": {
             "description": "Text or icon Color that keeps a contrast ratio above AA when main is used as a bg color",
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.gray.900",
             "type": "color"
           },
           "content-light": {
@@ -129,22 +129,22 @@
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.gray.900",
             "type": "color"
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.pink.600",
+            "value": "$scale.color.gray.800",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.pink.500",
+            "value": "$scale.color.gray.700",
             "type": "color"
           },
           "focus": {
             "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-            "value": "$scale.color.pink.200",
+            "value": "$scale.color.red.200",
             "type": "color"
           },
           "contained-disabled-background": {
@@ -153,12 +153,12 @@
             "type": "color"
           },
           "outlined-hover-background": {
-            "value": "$scale.color.pink.600",
+            "value": "$scale.color.gray.800",
             "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
             "type": "color"
           },
           "outlined-active-background": {
-            "value": "$scale.color.pink.500",
+            "value": "$scale.color.gray.700",
             "description": "Background fill color for outlined actions in active state (Button)",
             "type": "color"
           },
@@ -186,22 +186,22 @@
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.gray.900",
             "type": "color"
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.pink.600",
+            "value": "$scale.color.gray.900",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.pink.500",
+            "value": "$scale.color.gray.800",
             "type": "color"
           },
           "focus": {
             "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-            "value": "$scale.color.pink.200",
+            "value": "$scale.color.red.200",
             "type": "color"
           },
           "contained-disabled-background": {
@@ -223,12 +223,12 @@
         "default": {
           "main-contained": {
             "description": "Main fill background color used for components in rest state (Buttons, form controls)",
-            "value": "$scale.color.gray.700",
+            "value": "$scale.color.contrast.dark.65",
             "type": "color"
           },
           "main-outlined": {
             "description": "Outline fill color for outlined actions in rest state (Button, chip)",
-            "value": "$scale.color.gray.700",
+            "value": "$scale.color.contrast.dark.65",
             "type": "color"
           },
           "content-light": {
@@ -238,41 +238,41 @@
           },
           "content-dark": {
             "description": "Text or icon fill color that keeps a contrast ratio above AA when outline background state is used",
-            "value": "$scale.color.gray.700",
+            "value": "$scale.color.contrast.dark.65",
             "type": "color"
           },
           "contained-hover-background": {
             "description": "Background fill color for contained actions in hover state",
-            "value": "$scale.color.gray.600",
+            "value": "$scale.color.contrast.dark.55",
             "type": "color"
           },
           "contained-active-background": {
             "description": "Background fill color for contained actions in active state",
-            "value": "$scale.color.gray.500",
+            "value": "$scale.color.contrast.dark.45",
             "type": "color"
           },
           "focus": {
             "description": "Outline color for contained & outlined actions in focus state (Button, icon button, input, dropdown, etc)",
-            "value": "$scale.color.gray.200",
+            "value": "$scale.color.contrast.dark.85",
             "type": "color"
           },
           "contained-disabled-background": {
-            "value": "rgba($colors.action.default.main-contained, 0.4)",
+            "value": "$scale.color.contrast.dark.20",
             "description": "Background fill color for contained actions in disabled state (Button)",
             "type": "color"
           },
           "outlined-hover-background": {
-            "value": "$scale.color.gray.600",
+            "value": "$scale.color.contrast.dark.55",
             "description": "Background fill color for outlined actions in hover state (Button, icon button, input, dropdown)",
             "type": "color"
           },
           "outlined-active-background": {
-            "value": "$scale.color.gray.500",
+            "value": "$scale.color.contrast.dark.45",
             "description": "Background fill color for outlined actions in active state (Button)",
             "type": "color"
           },
           "highlight-hover-background": {
-            "value": "rgba($colors.action.default.main-contained, 0.1)",
+            "value": "$scale.color.contrast.dark.5",
             "description": "Parent background fill color for actions in hover state",
             "type": "color"
           }
@@ -510,87 +510,77 @@
         "default": {
           "main-dark": {
             "value": "$scale.color.contrast.dark.85",
-            "description": "Text main dark",
+            "description": "Text primary",
             "type": "color"
           },
           "main-light": {
             "value": "$scale.color.contrast.light.100",
-            "description": "Text main light",
+            "description": "Text secondary",
             "type": "color"
           },
           "secondary-dark": {
             "value": "$scale.color.contrast.dark.65",
-            "description": "Text secondary dark (support)",
+            "description": "Text secondary",
             "type": "color"
           },
           "secondary-light": {
             "value": "$scale.color.contrast.light.65",
-            "description": "Text secondary light (support)",
+            "description": "Text secondary",
             "type": "color"
           },
           "disabled-dark": {
             "value": "$scale.color.contrast.dark.40",
-            "description": "Text disabled dark",
+            "description": "Text disabled",
             "type": "color"
           },
           "disabled-light": {
             "value": "$scale.color.contrast.light.40",
-            "description": "Text disabled light",
+            "description": "Text secondary",
             "type": "color"
           }
         },
         "primary": {
           "main": {
-            "value": "$scale.color.blue.800",
-            "type": "color",
-            "description": "Text primary main "
+            "value": "$scale.color.red.800",
+            "type": "color"
           },
           "main-light": {
-            "value": "$scale.color.blue.200",
-            "type": "color",
-            "description": "Text primary main light"
+            "value": "$scale.color.red.200",
+            "type": "color"
           },
           "secondary": {
-            "value": "$scale.color.blue.700",
-            "type": "color",
-            "description": "Text primary secondary"
+            "value": "$scale.color.red.700",
+            "type": "color"
           },
           "secondary-light": {
-            "value": "$scale.color.blue.500",
-            "type": "color",
-            "description": "Text primary secondary light"
+            "value": "$scale.color.red.500",
+            "type": "color"
           },
           "disabled": {
             "value": "rgba($colors.text.primary.main, 0.4)",
-            "type": "color",
-            "description": "Text primary disabled"
+            "type": "color"
           }
         },
         "secondary": {
           "main": {
-            "value": "$scale.color.pink.800",
-            "type": "color",
-            "description": "Text secondary main"
+            "value": "$scale.color.gray.800",
+            "type": "color"
           },
           "main-light": {
-            "value": "$scale.color.pink.200",
-            "type": "color",
-            "description": "Text secondary main light"
+            "value": "$scale.color.gray.200",
+            "type": "color"
           },
           "secondary": {
-            "value": "$scale.color.pink.700",
-            "type": "color",
-            "description": "Text secondary secondary"
+            "value": "$scale.color.gray.700",
+            "type": "color"
           },
           "secondary-light": {
-            "value": "$scale.color.pink.500",
-            "type": "color",
-            "description": "Text secondary secondary light"
+            "value": "$scale.color.gray.500",
+            "type": "color"
           },
           "disabled": {
             "value": "rgba($colors.text.secondary.main, 0.4)",
-            "type": "color",
-            "description": "Text secondary disabled"
+            "type": "color"
           }
         }
       },
@@ -613,46 +603,45 @@
           },
           "modal-overlay": {
             "value": "$scale.color.contrast.dark.50",
-            "description": "Backdrop color when modal is active",
+            "description": "Backdrop color",
             "type": "color"
           },
           "divider": {
             "value": "$scale.color.contrast.dark.10",
-            "type": "color",
-            "description": "Line color for the divider"
+            "type": "color"
           }
         },
         "primary": {
           "main": {
-            "value": "$scale.color.blue.700",
-            "description": "Background main",
+            "value": "$scale.color.red.700",
+            "description": "700",
             "type": "color"
           },
           "dark": {
-            "value": "$scale.color.blue.800",
-            "description": "Background dark",
+            "value": "$scale.color.red.800",
+            "description": "800",
             "type": "color"
           },
           "light": {
-            "value": "$scale.color.blue.100",
-            "description": "Background light",
+            "value": "$scale.color.red.100",
+            "description": "100",
             "type": "color"
           }
         },
         "secondary": {
           "main": {
-            "value": "$scale.color.pink.700",
-            "description": "Background main",
+            "value": "$scale.color.gray.700",
+            "description": "700",
             "type": "color"
           },
           "dark": {
-            "value": "$scale.color.pink.800",
-            "description": "Background dark",
+            "value": "$scale.color.gray.900",
+            "description": "800",
             "type": "color"
           },
           "light": {
-            "value": "$scale.color.pink.100",
-            "description": "Background light",
+            "value": "$scale.color.gray.100",
+            "description": "100",
             "type": "color"
           }
         }
@@ -675,34 +664,34 @@
         },
         "primary": {
           "main": {
-            "value": "$scale.color.blue.700",
+            "value": "$scale.color.red.700",
             "description": "700",
             "type": "color"
           },
           "dark": {
-            "value": "$scale.color.blue.800",
-            "description": "Background dark",
+            "value": "$scale.color.red.800",
+            "description": "800",
             "type": "color"
           },
           "light": {
-            "value": "$scale.color.blue.100",
-            "description": "Background light",
+            "value": "$scale.color.red.100",
+            "description": "100",
             "type": "color"
           }
         },
         "secondary": {
           "main": {
-            "value": "$scale.color.pink.700",
+            "value": "$scale.color.gray.700",
             "description": "700",
             "type": "color"
           },
           "dark": {
-            "value": "$scale.color.pink.800",
+            "value": "$scale.color.gray.900",
             "description": "800",
             "type": "color"
           },
           "light": {
-            "value": "$scale.color.pink.100",
+            "value": "$scale.color.gray.100",
             "description": "100",
             "type": "color"
           }
@@ -710,7 +699,7 @@
       },
       "form": {
         "input-border": {
-          "value": "$scale.color.gray.400",
+          "value": "$scale.color.contrast.dark.25",
           "description": "Border style for outlined variant components in resting state (Text Field, Select, Chips, etc)",
           "type": "color"
         },
@@ -856,28 +845,23 @@
       "gradient": {
         "blue-green": {
           "value": "linear-gradient(145deg, rgba(0,172,85,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color",
-          "description": "Gradient blue to green"
+          "type": "color"
         },
         "blue-teal": {
           "value": "linear-gradient(145deg, rgba(0,119,160,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color",
-          "description": "Gradient blue to teal"
+          "type": "color"
         },
         "blue-purple": {
           "value": "linear-gradient(145deg, rgba(130,70,175,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color",
-          "description": "Gradient blue to purple"
+          "type": "color"
         },
         "blue-pink": {
           "value": "linear-gradient(145deg, rgba(238,61,139,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color",
-          "description": "Gradient blue to pink"
+          "type": "color"
         },
         "blue-turquoise": {
           "value": "linear-gradient(145deg, rgba(0,150,143,1) 0%, rgba(0,157,224,1) 100%)",
-          "type": "color",
-          "description": "Gradient blue to turquoise"
+          "type": "color"
         }
       }
     },
@@ -887,11 +871,13 @@
           "1": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.desktop.display",
               "fontSize": "$fontSizes.desktop.display",
               "letterSpacing": "$letterSpacing.decrease-30",
-              "paragraphSpacing": "$paragraphSpacing.desktop.display"
+              "paragraphSpacing": "$paragraphSpacing.desktop.display",
+              "textDecoration": "none",
+              "textCase": "none"
             },
             "description": "Display 1",
             "type": "typography"
@@ -901,7 +887,7 @@
           "1": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.desktop.h1",
               "fontSize": "$fontSizes.desktop.h1",
               "letterSpacing": "$letterSpacing.decrease-10",
@@ -913,7 +899,7 @@
           "2": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.desktop.h2",
               "fontSize": "$fontSizes.desktop.h2",
               "letterSpacing": "$letterSpacing.none",
@@ -925,7 +911,7 @@
           "3": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.desktop.h3",
               "fontSize": "$fontSizes.desktop.h3",
               "letterSpacing": "$letterSpacing.none",
@@ -974,24 +960,28 @@
         "title": {
           "1": {
             "value": {
-              "fontFamily": "$fontFamilies.heading",
+              "fontFamily": "$fontFamilies.body",
               "fontWeight": "$fontWeights.400",
               "lineHeight": "$lineHeights.desktop.title1",
               "fontSize": "$fontSizes.desktop.title1",
               "letterSpacing": "$letterSpacing.increase-5",
-              "paragraphSpacing": "$paragraphSpacing.desktop.title1"
+              "paragraphSpacing": "$paragraphSpacing.desktop.title1",
+              "textDecoration": "none",
+              "textCase": "none"
             },
             "description": "Title 1",
             "type": "typography"
           },
           "2": {
             "value": {
-              "fontFamily": "$fontFamilies.heading",
+              "fontFamily": "$fontFamilies.body",
               "fontWeight": "$fontWeights.400",
               "lineHeight": "$lineHeights.desktop.title2",
               "fontSize": "$fontSizes.desktop.title2",
               "letterSpacing": "$letterSpacing.none",
-              "paragraphSpacing": "$paragraphSpacing.desktop.title2"
+              "paragraphSpacing": "$paragraphSpacing.desktop.title2",
+              "textDecoration": "none",
+              "textCase": "none"
             },
             "description": "Title 2",
             "type": "typography"
@@ -1077,11 +1067,13 @@
           "1": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.mobile.display",
               "fontSize": "$fontSizes.mobile.display",
               "letterSpacing": "$letterSpacing.decrease-10",
-              "paragraphSpacing": "$paragraphSpacing.mobile.display"
+              "paragraphSpacing": "$paragraphSpacing.mobile.display",
+              "textDecoration": "none",
+              "textCase": "none"
             },
             "description": "Display",
             "type": "typography"
@@ -1091,7 +1083,7 @@
           "1": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.mobile.h1",
               "fontSize": "$fontSizes.mobile.h1",
               "letterSpacing": "$letterSpacing.none",
@@ -1103,7 +1095,7 @@
           "2": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.mobile.h2",
               "fontSize": "$fontSizes.mobile.h2",
               "letterSpacing": "{letterSpacing.none}",
@@ -1115,7 +1107,7 @@
           "3": {
             "value": {
               "fontFamily": "$fontFamilies.heading",
-              "fontWeight": "$fontWeights.700",
+              "fontWeight": "$fontWeights.900",
               "lineHeight": "$lineHeights.mobile.h3",
               "fontSize": "$fontSizes.mobile.h3",
               "letterSpacing": "$letterSpacing.increase-5",
@@ -1164,24 +1156,28 @@
         "title": {
           "1": {
             "value": {
-              "fontFamily": "$fontFamilies.heading",
+              "fontFamily": "$fontFamilies.body",
               "fontWeight": "$fontWeights.400",
               "lineHeight": "$lineHeights.mobile.title1",
               "fontSize": "$fontSizes.mobile.title1",
               "letterSpacing": "$letterSpacing.none",
-              "paragraphSpacing": "$paragraphSpacing.mobile.title1"
+              "paragraphSpacing": "$paragraphSpacing.mobile.title1",
+              "textDecoration": "none",
+              "textCase": "none"
             },
             "description": "Title 1",
             "type": "typography"
           },
           "2": {
             "value": {
-              "fontFamily": "$fontFamilies.heading",
+              "fontFamily": "$fontFamilies.body",
               "fontWeight": "$fontWeights.400",
               "lineHeight": "$lineHeights.mobile.title2",
               "fontSize": "$fontSizes.mobile.title2",
               "letterSpacing": "$letterSpacing.increase-3",
-              "paragraphSpacing": "$paragraphSpacing.mobile.title2"
+              "paragraphSpacing": "$paragraphSpacing.mobile.title2",
+              "textDecoration": "none",
+              "textCase": "none"
             },
             "description": "Title 2",
             "type": "typography"
@@ -1357,11 +1353,13 @@
           "header": {
             "value": {
               "fontFamily": "$fontFamilies.body",
-              "fontWeight": "$fontWeights.500",
+              "fontWeight": "$fontWeights.600",
               "lineHeight": "$lineHeights.desktop.body2",
               "fontSize": "$fontSizes.desktop.body3",
               "letterSpacing": "$letterSpacing.increase-5",
-              "paragraphSpacing": "$paragraphSpacing.desktop.body2"
+              "paragraphSpacing": "$paragraphSpacing.desktop.body2",
+              "textDecoration": "none",
+              "textCase": "none"
             },
             "description": "Table Header",
             "type": "typography"
@@ -1411,11 +1409,11 @@
     },
     "fontFamilies": {
       "heading": {
-        "value": "MMC Display",
+        "value": "Gotham",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Noto Sans",
+        "value": "Inter",
         "type": "fontFamilies"
       }
     },
@@ -1583,7 +1581,7 @@
         "type": "fontWeights"
       },
       "600": {
-        "value": "SemiBold",
+        "value": "Semi Bold",
         "type": "fontWeights"
       },
       "700": {
@@ -1981,7 +1979,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "$scale.color.contrast.dark.15"
+            "color": "$scale.color.contrast.dark"
           },
           "type": "boxShadow"
         },
@@ -1991,7 +1989,7 @@
             "y": "$scale.content.size.base * 2",
             "blur": "$scale.content.size.base * 2",
             "spread": "0",
-            "color": "rgba($scale.color.contrast.dark.15)"
+            "color": "rgba($scale.color.contrast.dark, 0.16)"
           },
           "type": "boxShadow"
         },
@@ -2001,7 +1999,7 @@
             "y": "$scale.content.size.base * 4",
             "blur": "$scale.content.size.base * 4",
             "spread": "0",
-            "color": "rgba($scale.color.contrast.dark.15"
+            "color": "rgba($scale.color.contrast.dark, 0.16)"
           },
           "type": "boxShadow"
         },
@@ -2011,7 +2009,7 @@
             "blur": "$scale.content.size.base * 8",
             "spread": "0",
             "x": "0",
-            "color": "rgba($scale.color.contrast.dark.15"
+            "color": "rgba($scale.color.contrast.dark, 0.16)"
           },
           "type": "boxShadow"
         },
@@ -2021,7 +2019,7 @@
             "y": "$scale.content.size.base * 12",
             "blur": "$scale.content.size.base * 12",
             "spread": "0",
-            "color": "rgba($scale.color.contrast.dark.15)"
+            "color": "rgba($scale.color.contrast.dark, 0.16)"
           },
           "type": "boxShadow"
         }
@@ -2127,366 +2125,54 @@
     },
     "scale": {
       "color": {
-        "blue": {
+        "red": {
           "50": {
-            "value": "rgb(240, 250, 255)",
+            "value": "rgb(255, 237, 238)",
             "description": "50",
             "type": "other"
           },
           "100": {
-            "value": "rgb(199, 237, 255)",
+            "value": "rgb(255, 196, 200)",
             "description": "100",
             "type": "other"
           },
           "200": {
-            "value": "rgb(159, 224, 255)",
+            "value": "rgb(255, 155, 163)",
             "description": "200",
             "type": "other"
           },
           "300": {
-            "value": "rgb(118, 211, 255)",
+            "value": "rgb(255, 114, 125)",
             "description": "300",
             "type": "other"
           },
           "400": {
-            "value": "rgb(59, 184, 240)",
+            "value": "rgb(255, 73, 88)",
             "description": "400",
             "type": "other"
           },
           "500": {
-            "value": "rgb(0, 157, 224)",
+            "value": "rgb(234, 55, 69)",
             "description": "500 AA large text only",
             "type": "other"
           },
           "600": {
-            "value": "rgb(0, 101, 172)",
+            "value": "rgb(200, 36, 49)",
             "description": "600 AA",
             "type": "other"
           },
           "700": {
-            "value": "rgb(0, 44, 119)",
+            "value": "rgb(166, 21, 33)",
             "description": "700 AAA",
             "type": "other"
           },
           "800": {
-            "value": "rgb(0, 31, 82)",
+            "value": "rgb(132, 10, 20)",
             "description": "800 AAA",
             "type": "other"
           },
           "900": {
-            "value": "rgb(0, 21, 56)",
-            "description": "900 AAA",
-            "type": "other"
-          }
-        },
-        "teal": {
-          "50": {
-            "value": "rgb(240, 253, 255)",
-            "description": "50",
-            "type": "other"
-          },
-          "100": {
-            "value": "rgb(212, 241, 246)",
-            "description": "100",
-            "type": "other"
-          },
-          "200": {
-            "value": "rgb(184, 229, 237)",
-            "description": "200",
-            "type": "other"
-          },
-          "300": {
-            "value": "rgb(156, 217, 228)",
-            "description": "300",
-            "type": "other"
-          },
-          "400": {
-            "value": "rgb(78, 168, 194)",
-            "description": "400 AAA dark text only",
-            "type": "other"
-          },
-          "500": {
-            "value": "rgb(0, 119, 160)",
-            "description": "500 AA",
-            "type": "other"
-          },
-          "600": {
-            "value": "rgb(0, 98, 134)",
-            "description": "600 AA",
-            "type": "other"
-          },
-          "700": {
-            "value": "rgb(0, 76, 108)",
-            "description": "700 AAA",
-            "type": "other"
-          },
-          "800": {
-            "value": "rgb(0, 54, 77)",
-            "description": "800 AAA",
-            "type": "other"
-          },
-          "900": {
-            "value": "rgb(0, 32, 46)",
-            "description": "900 AAA",
-            "type": "other"
-          }
-        },
-        "turquoise": {
-          "50": {
-            "value": "rgb(245, 255, 253)",
-            "description": "50",
-            "type": "other"
-          },
-          "100": {
-            "value": "rgb(214, 243, 237)",
-            "description": "100",
-            "type": "other"
-          },
-          "200": {
-            "value": "rgb(183, 231, 222)",
-            "description": "200",
-            "type": "other"
-          },
-          "300": {
-            "value": "rgb(152, 219, 206)",
-            "description": "300",
-            "type": "other"
-          },
-          "400": {
-            "value": "rgb(76, 185, 175)",
-            "description": "400 AAA dark text only",
-            "type": "other"
-          },
-          "500": {
-            "value": "rgb(0, 150, 143)",
-            "description": "500 AA large text only",
-            "type": "other"
-          },
-          "600": {
-            "value": "rgb(0, 122, 118)",
-            "description": "600 AA",
-            "type": "other"
-          },
-          "700": {
-            "value": "rgb(0, 94, 93)",
-            "description": "700 AAA",
-            "type": "other"
-          },
-          "800": {
-            "value": "rgb(0, 65, 64)",
-            "description": "800 AAA",
-            "type": "other"
-          },
-          "900": {
-            "value": "rgb(0, 36, 35)",
-            "description": "900 AAA",
-            "type": "other"
-          }
-        },
-        "green": {
-          "50": {
-            "value": "rgb(243, 255, 245)",
-            "description": "50",
-            "type": "other"
-          },
-          "100": {
-            "value": "rgb(214, 243, 237)",
-            "description": "100",
-            "type": "other"
-          },
-          "200": {
-            "value": "rgb(183, 231, 222)",
-            "description": "200",
-            "type": "other"
-          },
-          "300": {
-            "value": "rgb(152, 219, 206)",
-            "description": "300",
-            "type": "other"
-          },
-          "400": {
-            "value": "rgb(87, 198, 122)",
-            "description": "400 AAA dark text only",
-            "type": "other"
-          },
-          "500": {
-            "value": "rgb(0, 172, 65)",
-            "description": "500 AA large text only",
-            "type": "other"
-          },
-          "600": {
-            "value": "rgb(20, 133, 61)",
-            "description": "600 AA",
-            "type": "other"
-          },
-          "700": {
-            "value": "rgb(39, 93, 56)",
-            "description": "700 AAA",
-            "type": "other"
-          },
-          "800": {
-            "value": "rgb(27, 65, 39)",
-            "description": "800 AAA",
-            "type": "other"
-          },
-          "900": {
-            "value": "rgb(15, 36, 21)",
-            "description": "900 AAA",
-            "type": "other"
-          }
-        },
-        "pink": {
-          "50": {
-            "value": "rgb(255, 248, 249)",
-            "description": "50",
-            "type": "other"
-          },
-          "100": {
-            "value": "rgb(253, 223, 229)",
-            "description": "100",
-            "type": "other"
-          },
-          "200": {
-            "value": "rgb(251, 198, 210)",
-            "description": "200",
-            "type": "other"
-          },
-          "300": {
-            "value": "rgb(248, 172, 190)",
-            "description": "300",
-            "type": "other"
-          },
-          "400": {
-            "value": "rgb(243, 117, 165)",
-            "description": "400 AAA dark text only",
-            "type": "other"
-          },
-          "500": {
-            "value": "rgb(238, 61, 139)",
-            "description": "500 AA large text only",
-            "type": "other"
-          },
-          "600": {
-            "value": "rgb(208, 32, 115)",
-            "description": "600 AA",
-            "type": "other"
-          },
-          "700": {
-            "value": "rgb(178, 2, 91)",
-            "description": "700 AA",
-            "type": "other"
-          },
-          "800": {
-            "value": "rgb(120, 2, 61)",
-            "description": "800 AAA",
-            "type": "other"
-          },
-          "900": {
-            "value": "rgb(61, 1, 31)",
-            "description": "900 AAA",
-            "type": "other"
-          }
-        },
-        "purple": {
-          "50": {
-            "value": "rgb(249, 247, 251)",
-            "description": "50",
-            "type": "other"
-          },
-          "100": {
-            "value": "rgb(234, 224, 242)",
-            "description": "100",
-            "type": "other"
-          },
-          "200": {
-            "value": "rgb(219, 202, 233)",
-            "description": "200",
-            "type": "other"
-          },
-          "300": {
-            "value": "rgb(204, 179, 224)",
-            "description": "300",
-            "type": "other"
-          },
-          "400": {
-            "value": "rgb(167, 125, 200)",
-            "description": "400 AA large text only",
-            "type": "other"
-          },
-          "500": {
-            "value": "rgb(130, 70, 175)",
-            "description": "500 AA",
-            "type": "other"
-          },
-          "600": {
-            "value": "rgb(100, 60, 153)",
-            "description": "600 AAA",
-            "type": "other"
-          },
-          "700": {
-            "value": "rgb(70, 50, 130)",
-            "description": "700 AA",
-            "type": "other"
-          },
-          "800": {
-            "value": "rgb(48, 34, 89)",
-            "description": "800 AAA",
-            "type": "other"
-          },
-          "900": {
-            "value": "rgb(26, 18, 48)",
-            "description": "900 AAA",
-            "type": "other"
-          }
-        },
-        "blueGray": {
-          "50": {
-            "value": "rgb(248, 250, 252)",
-            "description": "50",
-            "type": "other"
-          },
-          "100": {
-            "value": "rgb(229, 237, 244)",
-            "description": "100",
-            "type": "other"
-          },
-          "200": {
-            "value": "rgb(209, 224, 236)",
-            "description": "200",
-            "type": "other"
-          },
-          "300": {
-            "value": "rgb(190, 211, 228)",
-            "description": "300",
-            "type": "other"
-          },
-          "400": {
-            "value": "rgb(162, 183, 205)",
-            "description": "400 AAA dark text only",
-            "type": "other"
-          },
-          "500": {
-            "value": "rgb(128, 150, 178)",
-            "description": "500 AA large text only",
-            "type": "other"
-          },
-          "600": {
-            "value": "rgb(98, 119, 152)",
-            "description": "600 AAA",
-            "type": "other"
-          },
-          "700": {
-            "value": "rgb(78, 98, 135)",
-            "description": "700 AA",
-            "type": "other"
-          },
-          "800": {
-            "value": "rgb(53, 66, 91)",
-            "description": "800 AAA",
-            "type": "other"
-          },
-          "900": {
-            "value": "rgb(27, 34, 47)",
+            "value": "rgb(98, 2, 10)",
             "description": "900 AAA",
             "type": "other"
           }
@@ -2498,47 +2184,47 @@
             "type": "other"
           },
           "100": {
-            "value": "rgb(235, 235, 235)",
+            "value": "rgb(224, 224, 224)",
             "description": "100",
             "type": "other"
           },
           "200": {
-            "value": "rgb(227, 227, 227)",
+            "value": "rgb(198, 198, 198)",
             "description": "200",
             "type": "other"
           },
           "300": {
-            "value": "rgb(218, 218, 218)",
+            "value": "rgb(168, 168, 168)",
             "description": "300",
             "type": "other"
           },
           "400": {
-            "value": "rgb(179, 179, 179)",
+            "value": "rgb(141, 141, 141)",
             "description": "400 AAA dark text only",
             "type": "other"
           },
           "500": {
-            "value": "rgb(148, 148, 148)",
+            "value": "rgb(111, 111, 111)",
             "description": "500 AA large text only",
             "type": "other"
           },
           "600": {
-            "value": "rgb(118, 118, 118)",
+            "value": "rgb(82, 82, 82)",
             "description": "600 AAA",
             "type": "other"
           },
           "700": {
-            "value": "rgb(86, 86, 86)",
+            "value": "rgb(57, 57, 57)",
             "description": "700 AA",
             "type": "other"
           },
           "800": {
-            "value": "rgb(59, 59, 59)",
+            "value": "rgb(36, 36, 36)",
             "description": "800 AAA",
             "type": "other"
           },
           "900": {
-            "value": "rgb(32, 32, 32)",
+            "value": "rgb(22, 22, 22)",
             "description": "900 AAA",
             "type": "other"
           }
